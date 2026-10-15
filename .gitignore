@@ -34,3 +34,6 @@ next-env.d.ts
 
 # design zips & screenshots
 *.zip
+
+# database swap files
+.data/*.tmp

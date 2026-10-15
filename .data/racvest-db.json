@@ -1,0 +1,4530 @@
+{
+  "users": [
+    {
+      "id": "RCV-29842",
+      "firstName": "Olawale",
+      "lastName": "Johnson",
+      "email": "olawale.johnson@gmail.com",
+      "phone": "+2348032145678",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Ikeja, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+      "rating": 4.8,
+      "registeredAt": "2026-02-10T09:15:00Z",
+      "lastActive": "2026-10-14T14:10:00Z",
+      "deliveryCount": 34,
+      "walletBalance": 4500000
+    },
+    {
+      "id": "RCV-10481",
+      "firstName": "Chidi",
+      "lastName": "Eze",
+      "email": "chidi.eze@yahoo.com",
+      "phone": "+2348029988771",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "suspended",
+      "riskLevel": "flag",
+      "location": "Garki, Abuja",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "rating": 3.2,
+      "registeredAt": "2026-04-18T11:20:00Z",
+      "lastActive": "2026-10-14T11:45:00Z",
+      "deliveryCount": 12,
+      "walletBalance": 1250000,
+      "suspendedReason": "Flagged in RPT-10481 for suspected price manipulation and off-platform arrangement attempt"
+    },
+    {
+      "id": "RCV-83921",
+      "firstName": "Amaka",
+      "lastName": "Obi",
+      "email": "amaka.obi@outlook.com",
+      "phone": "+2348145566778",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Victoria Island, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-03-05T08:30:00Z",
+      "lastActive": "2026-10-14T14:22:00Z",
+      "deliveryCount": 19,
+      "walletBalance": 18500000
+    },
+    {
+      "id": "RCV-10104",
+      "firstName": "Tunde",
+      "lastName": "Bakare",
+      "email": "tunde.bakare@gmail.com",
+      "phone": "+2348051234567",
+      "roles": [
+        "traveller",
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "flag",
+      "location": "Wuse 2, Abuja",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+      "rating": 4.1,
+      "registeredAt": "2026-05-12T14:10:00Z",
+      "lastActive": "2026-10-14T13:40:00Z",
+      "deliveryCount": 28,
+      "walletBalance": 8200000
+    },
+    {
+      "id": "RCV-10105",
+      "firstName": "Ibrahim",
+      "lastName": "Sani",
+      "email": "ibrahim.sani@logistics.ng",
+      "phone": "+2348098765432",
+      "roles": [
+        "courier"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Fagge, Kano",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150",
+      "rating": 4.7,
+      "registeredAt": "2026-01-20T10:00:00Z",
+      "lastActive": "2026-10-14T14:40:00Z",
+      "deliveryCount": 86,
+      "walletBalance": 32000000
+    },
+    {
+      "id": "RCV-10106",
+      "firstName": "Blessing",
+      "lastName": "Umeh",
+      "email": "blessing.umeh@gmail.com",
+      "phone": "+2348123456789",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Enugu Urban, Enugu",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-02-28T16:45:00Z",
+      "lastActive": "2026-10-14T10:15:00Z",
+      "deliveryCount": 15,
+      "walletBalance": 6400000
+    },
+    {
+      "id": "RCV-10107",
+      "firstName": "Fatima",
+      "lastName": "Dangote",
+      "email": "fatima.dangote@kane.ng",
+      "phone": "+2348039911223",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Nasarawa, Kano",
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150",
+      "rating": 5,
+      "registeredAt": "2026-03-11T12:00:00Z",
+      "lastActive": "2026-10-14T09:30:00Z",
+      "deliveryCount": 42,
+      "walletBalance": 52000000
+    },
+    {
+      "id": "RCV-10108",
+      "firstName": "Segun",
+      "lastName": "Arinze",
+      "email": "segun.arinze@yahoo.com",
+      "phone": "+2348021122334",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "GRA Phase 2, Port Harcourt",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150",
+      "rating": 4.6,
+      "registeredAt": "2026-04-02T15:20:00Z",
+      "lastActive": "2026-10-14T12:18:00Z",
+      "deliveryCount": 22,
+      "walletBalance": 14750000
+    },
+    {
+      "id": "RCV-10109",
+      "firstName": "Aisha",
+      "lastName": "Bello",
+      "email": "aisha.bello@gmail.com",
+      "phone": "+2348187766554",
+      "roles": [
+        "sender",
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Maitama, Abuja",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-01-15T09:00:00Z",
+      "lastActive": "2026-10-14T14:05:00Z",
+      "deliveryCount": 31,
+      "walletBalance": 9800000
+    },
+    {
+      "id": "RCV-10110",
+      "firstName": "Nneka",
+      "lastName": "Nwosu",
+      "email": "nneka.nwosu@gmail.com",
+      "phone": "+2348064433221",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Independence Layout, Enugu",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+      "rating": 4.8,
+      "registeredAt": "2026-05-20T11:40:00Z",
+      "lastActive": "2026-10-14T13:20:00Z",
+      "deliveryCount": 16,
+      "walletBalance": 7300000
+    },
+    {
+      "id": "RCV-10111",
+      "firstName": "Yakubu",
+      "lastName": "Danjuma",
+      "email": "yakubu.danjuma@expressway.ng",
+      "phone": "+2348073322110",
+      "roles": [
+        "courier"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Barnawa, Kaduna",
+      "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150",
+      "rating": 4.5,
+      "registeredAt": "2026-03-30T10:15:00Z",
+      "lastActive": "2026-10-14T11:00:00Z",
+      "deliveryCount": 64,
+      "walletBalance": 24500000
+    },
+    {
+      "id": "RCV-10112",
+      "firstName": "Femi",
+      "lastName": "Adebayo",
+      "email": "femi.adebayo@mail.com",
+      "phone": "+2348135544332",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "pending",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Bodija, Ibadan",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "rating": 4.2,
+      "registeredAt": "2026-09-28T14:00:00Z",
+      "lastActive": "2026-10-13T16:45:00Z",
+      "deliveryCount": 4,
+      "walletBalance": 1200000
+    },
+    {
+      "id": "RCV-10113",
+      "firstName": "Halima",
+      "lastName": "Aliyu",
+      "email": "halima.aliyu@abuja.gov.ng",
+      "phone": "+2348082211990",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Central Area, Abuja",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-02-14T08:20:00Z",
+      "lastActive": "2026-10-14T13:55:00Z",
+      "deliveryCount": 27,
+      "walletBalance": 11400000
+    },
+    {
+      "id": "RCV-10114",
+      "firstName": "Chukwuma",
+      "lastName": "Soludo",
+      "email": "chukwuma.soludo@onitsha.biz",
+      "phone": "+2348116677889",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Commercial Layout, Onitsha",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "rating": 4.7,
+      "registeredAt": "2026-04-05T13:30:00Z",
+      "lastActive": "2026-10-14T14:12:00Z",
+      "deliveryCount": 38,
+      "walletBalance": 16800000
+    },
+    {
+      "id": "RCV-10115",
+      "firstName": "Ronke",
+      "lastName": "Oshodi",
+      "email": "ronke.oshodi@speedpost.ng",
+      "phone": "+2348028833445",
+      "roles": [
+        "courier"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Surulere, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150",
+      "rating": 4.8,
+      "registeredAt": "2026-01-10T11:00:00Z",
+      "lastActive": "2026-10-14T14:44:00Z",
+      "deliveryCount": 112,
+      "walletBalance": 41200000
+    },
+    {
+      "id": "RCV-10116",
+      "firstName": "Usman",
+      "lastName": "Mohammed",
+      "email": "usman.mohammed@sokoto.net",
+      "phone": "+2348154433221",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "unverified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Arkilla, Sokoto",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+      "rating": 0,
+      "registeredAt": "2026-10-10T09:00:00Z",
+      "lastActive": "2026-10-12T15:10:00Z",
+      "deliveryCount": 1,
+      "walletBalance": 350000
+    },
+    {
+      "id": "RCV-10117",
+      "firstName": "Ngozi",
+      "lastName": "Okonjo",
+      "email": "ngozi.okonjo@asaba.org",
+      "phone": "+2348091122338",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "GRA, Asaba",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-03-22T10:40:00Z",
+      "lastActive": "2026-10-14T12:00:00Z",
+      "deliveryCount": 18,
+      "walletBalance": 8900000
+    },
+    {
+      "id": "RCV-10118",
+      "firstName": "Sani",
+      "lastName": "Abacha",
+      "email": "sani.abacha@kanotravel.com",
+      "phone": "+2348037744119",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "rejected",
+      "accountStatus": "suspended",
+      "riskLevel": "danger",
+      "location": "Nasarawa, Kano",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+      "rating": 2.1,
+      "registeredAt": "2026-06-15T14:00:00Z",
+      "lastActive": "2026-10-11T08:20:00Z",
+      "deliveryCount": 5,
+      "walletBalance": 0,
+      "suspendedReason": "Attempted to transport undeclared chemical compounds; verification document flagged fraudulent"
+    },
+    {
+      "id": "RCV-10119",
+      "firstName": "Funke",
+      "lastName": "Akindele",
+      "email": "funke.akindele@sceneone.tv",
+      "phone": "+2348023344556",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Lekki Phase 1, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "rating": 5,
+      "registeredAt": "2026-01-25T16:20:00Z",
+      "lastActive": "2026-10-14T14:15:00Z",
+      "deliveryCount": 52,
+      "walletBalance": 68000000
+    },
+    {
+      "id": "RCV-10120",
+      "firstName": "Taribo",
+      "lastName": "West",
+      "email": "taribo.west@westfreight.com",
+      "phone": "+2348184422119",
+      "roles": [
+        "courier"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "banned",
+      "riskLevel": "danger",
+      "location": "Apapa, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150",
+      "rating": 1.8,
+      "registeredAt": "2026-02-18T10:00:00Z",
+      "lastActive": "2026-10-09T17:30:00Z",
+      "deliveryCount": 14,
+      "walletBalance": 0,
+      "bannedReason": "Confirmed package tampering and diversion on shipment DLV-71920. Case referred to law enforcement."
+    },
+    {
+      "id": "RCV-10121",
+      "firstName": "Maryam",
+      "lastName": "Booth",
+      "email": "maryam.booth@kannywood.ng",
+      "phone": "+2348061177889",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Tarauni, Kano",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "rating": 4.8,
+      "registeredAt": "2026-04-12T09:30:00Z",
+      "lastActive": "2026-10-14T10:45:00Z",
+      "deliveryCount": 11,
+      "walletBalance": 4200000
+    },
+    {
+      "id": "RCV-10122",
+      "firstName": "Peter",
+      "lastName": "Odili",
+      "email": "peter.odili@deltaexpress.ng",
+      "phone": "+2348035511228",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Trans-Amadi, Port Harcourt",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-03-08T13:10:00Z",
+      "lastActive": "2026-10-14T13:50:00Z",
+      "deliveryCount": 29,
+      "walletBalance": 15400000
+    },
+    {
+      "id": "RCV-10123",
+      "firstName": "Genevieve",
+      "lastName": "Nnaji",
+      "email": "genevieve.nnaji@nollywood.org",
+      "phone": "+2348024477881",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Ikoyi, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "rating": 5,
+      "registeredAt": "2026-01-05T12:00:00Z",
+      "lastActive": "2026-10-14T14:02:00Z",
+      "deliveryCount": 45,
+      "walletBalance": 92000000
+    },
+    {
+      "id": "RCV-10124",
+      "firstName": "Chinedu",
+      "lastName": "Ikedieze",
+      "email": "chinedu.ikedieze@abapress.com",
+      "phone": "+2348128899001",
+      "roles": [
+        "courier"
+      ],
+      "verificationStatus": "pending",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Factory Road, Aba",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "rating": 4.4,
+      "registeredAt": "2026-09-15T15:20:00Z",
+      "lastActive": "2026-10-13T18:00:00Z",
+      "deliveryCount": 8,
+      "walletBalance": 2800000
+    },
+    {
+      "id": "RCV-10125",
+      "firstName": "Osas",
+      "lastName": "Ighodaro",
+      "email": "osas.ighodaro@gmail.com",
+      "phone": "+2348057766554",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "GRA, Benin City",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-02-11T11:15:00Z",
+      "lastActive": "2026-10-14T14:28:00Z",
+      "deliveryCount": 25,
+      "walletBalance": 11900000
+    },
+    {
+      "id": "RCV-10126",
+      "firstName": "Balarabe",
+      "lastName": "Musa",
+      "email": "balarabe.musa@kaduna.gov.ng",
+      "phone": "+2348163355779",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "unverified",
+      "accountStatus": "inactive",
+      "riskLevel": "safe",
+      "location": "Malali, Kaduna",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150",
+      "rating": 0,
+      "registeredAt": "2026-08-01T08:00:00Z",
+      "lastActive": "2026-08-20T10:00:00Z",
+      "deliveryCount": 0,
+      "walletBalance": 0
+    },
+    {
+      "id": "RCV-10127",
+      "firstName": "Hadiza",
+      "lastName": "Bala",
+      "email": "hadiza.bala@ports.gov.ng",
+      "phone": "+2348031199884",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Asokoro, Abuja",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150",
+      "rating": 4.8,
+      "registeredAt": "2026-03-14T14:50:00Z",
+      "lastActive": "2026-10-14T13:10:00Z",
+      "deliveryCount": 21,
+      "walletBalance": 14200000
+    },
+    {
+      "id": "RCV-10128",
+      "firstName": "Emeka",
+      "lastName": "Anyaoku",
+      "email": "emeka.anyaoku@commonwealth.ng",
+      "phone": "+2348025588112",
+      "roles": [
+        "traveller"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "New Owerri, Owerri",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "rating": 4.7,
+      "registeredAt": "2026-04-29T10:30:00Z",
+      "lastActive": "2026-10-14T12:45:00Z",
+      "deliveryCount": 17,
+      "walletBalance": 8100000
+    },
+    {
+      "id": "RCV-10129",
+      "firstName": "Zainab",
+      "lastName": "Ahmed",
+      "email": "zainab.ahmed@budget.gov.ng",
+      "phone": "+2348083311776",
+      "roles": [
+        "sender"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Bosso, Minna",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "rating": 4.6,
+      "registeredAt": "2026-05-18T16:00:00Z",
+      "lastActive": "2026-10-14T11:15:00Z",
+      "deliveryCount": 9,
+      "walletBalance": 3900000
+    },
+    {
+      "id": "RCV-10130",
+      "firstName": "Dayo",
+      "lastName": "Amusa",
+      "email": "dayo.amusa@lagosriders.ng",
+      "phone": "+2348149922114",
+      "roles": [
+        "courier"
+      ],
+      "verificationStatus": "verified",
+      "accountStatus": "active",
+      "riskLevel": "safe",
+      "location": "Yaba, Lagos",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150",
+      "rating": 4.9,
+      "registeredAt": "2026-02-01T09:10:00Z",
+      "lastActive": "2026-10-14T14:35:00Z",
+      "deliveryCount": 140,
+      "walletBalance": 51200000
+    }
+  ],
+  "userVerifications": [
+    {
+      "id": "VRF-001",
+      "userId": "RCV-10112",
+      "documentType": "nin",
+      "documentNumber": "92837461928",
+      "documentUrl": "https://docs.racvest.com/verifications/nin_92837461928.pdf",
+      "selfieUrl": "https://docs.racvest.com/verifications/selfie_10112.jpg",
+      "submittedAt": "2026-10-13T10:15:00Z",
+      "status": "pending"
+    },
+    {
+      "id": "VRF-002",
+      "userId": "RCV-10124",
+      "documentType": "drivers_license",
+      "documentNumber": "AB098234LA",
+      "documentUrl": "https://docs.racvest.com/verifications/dl_AB098234LA.pdf",
+      "selfieUrl": "https://docs.racvest.com/verifications/selfie_10124.jpg",
+      "submittedAt": "2026-10-13T14:40:00Z",
+      "status": "pending"
+    },
+    {
+      "id": "VRF-003",
+      "userId": "RCV-10118",
+      "documentType": "international_passport",
+      "documentNumber": "A10982734",
+      "documentUrl": "https://docs.racvest.com/verifications/pass_A10982734.pdf",
+      "selfieUrl": "https://docs.racvest.com/verifications/selfie_10118.jpg",
+      "submittedAt": "2026-10-08T09:00:00Z",
+      "reviewedAt": "2026-10-09T11:20:00Z",
+      "reviewedBy": "ADM-005",
+      "status": "rejected",
+      "rejectionReason": "Passport biographical page tampered; facial biometric mismatch with live selfie."
+    },
+    {
+      "id": "VRF-004",
+      "userId": "RCV-29842",
+      "documentType": "nin",
+      "documentNumber": "48392019482",
+      "documentUrl": "https://docs.racvest.com/verifications/nin_48392019482.pdf",
+      "selfieUrl": "https://docs.racvest.com/verifications/selfie_29842.jpg",
+      "submittedAt": "2026-02-10T09:30:00Z",
+      "reviewedAt": "2026-02-10T12:15:00Z",
+      "reviewedBy": "ADM-005",
+      "status": "verified"
+    },
+    {
+      "id": "VRF-005",
+      "userId": "RCV-83921",
+      "documentType": "bvn",
+      "documentNumber": "22394820194",
+      "documentUrl": "https://docs.racvest.com/verifications/bvn_22394820194.pdf",
+      "selfieUrl": "https://docs.racvest.com/verifications/selfie_83921.jpg",
+      "submittedAt": "2026-03-05T09:00:00Z",
+      "reviewedAt": "2026-03-05T10:45:00Z",
+      "reviewedBy": "ADM-005",
+      "status": "verified"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "DLV-83921",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "mode": "traveller",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "packageDescription": "Apple MacBook Pro 16\" M3 Max + iPad Pro 12.9\" in sealed pelican case",
+      "packageCategory": "High-Value Electronics",
+      "packageWeight": 4.5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500"
+      ],
+      "declaredValue": 125000000,
+      "agreedPrice": 3500000,
+      "pickupLocation": "Victoria Island, Lagos",
+      "destination": "Wuse 2, Abuja",
+      "route": "Lagos → Abuja",
+      "scheduledPickup": "2026-10-12T08:00:00Z",
+      "scheduledDelivery": "2026-10-13T17:00:00Z",
+      "status": "in_transit",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99281",
+      "isDelayed": true,
+      "notes": "Traveller reported flight rescheduling due to weather at Nnamdi Azikiwe International Airport Abuja.",
+      "createdAt": "2026-10-10T11:20:00Z",
+      "updatedAt": "2026-10-14T09:30:00Z",
+      "statusHistory": [
+        {
+          "status": "request_created",
+          "timestamp": "2026-10-10T11:20:00Z",
+          "actor": "Amaka Obi",
+          "note": "Created package request"
+        },
+        {
+          "status": "offers_received",
+          "timestamp": "2026-10-10T14:00:00Z",
+          "actor": "System",
+          "note": "3 traveller offers received"
+        },
+        {
+          "status": "matched",
+          "timestamp": "2026-10-11T09:15:00Z",
+          "actor": "Amaka Obi",
+          "note": "Accepted offer from Tunde Bakare"
+        },
+        {
+          "status": "awaiting_pickup",
+          "timestamp": "2026-10-11T10:00:00Z",
+          "actor": "System",
+          "note": "Payment held in escrow"
+        },
+        {
+          "status": "picked_up",
+          "timestamp": "2026-10-12T08:45:00Z",
+          "actor": "Tunde Bakare",
+          "note": "Package collected and scanned"
+        },
+        {
+          "status": "in_transit",
+          "timestamp": "2026-10-12T09:30:00Z",
+          "actor": "Tunde Bakare",
+          "note": "En route to MMA2 Lagos"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83922",
+      "senderId": "RCV-29842",
+      "senderName": "Olawale Johnson",
+      "mode": "courier",
+      "courierId": "RCV-10105",
+      "courierName": "Ibrahim Sani",
+      "packageDescription": "Solar Inverter 3.5kVA lithium battery modules",
+      "packageCategory": "Solar Equipment",
+      "packageWeight": 22,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1509391365360-2e959784a276?w=500"
+      ],
+      "declaredValue": 48000000,
+      "agreedPrice": 2800000,
+      "pickupLocation": "Ikeja Industrial Estate, Lagos",
+      "destination": "Bompai Industrial Area, Kano",
+      "route": "Lagos → Kano",
+      "scheduledPickup": "2026-10-13T10:00:00Z",
+      "scheduledDelivery": "2026-10-15T12:00:00Z",
+      "status": "in_transit",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99282",
+      "createdAt": "2026-10-12T14:00:00Z",
+      "updatedAt": "2026-10-14T11:00:00Z",
+      "statusHistory": [
+        {
+          "status": "request_created",
+          "timestamp": "2026-10-12T14:00:00Z",
+          "actor": "Olawale Johnson",
+          "note": "Order created"
+        },
+        {
+          "status": "matched",
+          "timestamp": "2026-10-12T16:30:00Z",
+          "actor": "Ibrahim Sani",
+          "note": "Courier assigned"
+        },
+        {
+          "status": "picked_up",
+          "timestamp": "2026-10-13T10:30:00Z",
+          "actor": "Ibrahim Sani",
+          "note": "Loaded into cargo van"
+        },
+        {
+          "status": "in_transit",
+          "timestamp": "2026-10-13T11:00:00Z",
+          "actor": "Ibrahim Sani",
+          "note": "Passed Lokoja check-point"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83923",
+      "senderId": "RCV-10119",
+      "senderName": "Funke Akindele",
+      "mode": "traveller",
+      "travellerId": "RCV-10108",
+      "travellerName": "Segun Arinze",
+      "packageDescription": "Boutique bridal attire and traditional beaded accessories",
+      "packageCategory": "Fashion & Apparel",
+      "packageWeight": 3.2,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500"
+      ],
+      "declaredValue": 25000000,
+      "agreedPrice": 2000000,
+      "pickupLocation": "Lekki Phase 1, Lagos",
+      "destination": "GRA Phase 2, Port Harcourt",
+      "route": "Lagos → Port Harcourt",
+      "scheduledPickup": "2026-10-11T09:00:00Z",
+      "scheduledDelivery": "2026-10-12T14:00:00Z",
+      "actualDelivery": "2026-10-12T13:45:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99283",
+      "createdAt": "2026-10-09T08:00:00Z",
+      "updatedAt": "2026-10-12T14:00:00Z",
+      "statusHistory": [
+        {
+          "status": "picked_up",
+          "timestamp": "2026-10-11T09:30:00Z",
+          "actor": "Segun Arinze",
+          "note": "Picked up"
+        },
+        {
+          "status": "in_transit",
+          "timestamp": "2026-10-11T12:00:00Z",
+          "actor": "Segun Arinze",
+          "note": "Flight boarded"
+        },
+        {
+          "status": "delivered_awaiting_confirmation",
+          "timestamp": "2026-10-12T13:45:00Z",
+          "actor": "Segun Arinze",
+          "note": "Handed to receiver"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-10-12T14:00:00Z",
+          "actor": "Funke Akindele",
+          "note": "Receiver verified PIN"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83924",
+      "senderId": "RCV-10107",
+      "senderName": "Fatima Dangote",
+      "mode": "traveller",
+      "travellerId": "RCV-10114",
+      "travellerName": "Chukwuma Soludo",
+      "packageDescription": "Traditional Northern woven brocade fabrics (10 bundles)",
+      "packageCategory": "Textiles",
+      "packageWeight": 8,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=500"
+      ],
+      "declaredValue": 60000000,
+      "agreedPrice": 3000000,
+      "pickupLocation": "Kano Central Market, Kano",
+      "destination": "Main Market, Onitsha",
+      "route": "Kano → Onitsha",
+      "scheduledPickup": "2026-10-15T09:00:00Z",
+      "scheduledDelivery": "2026-10-16T15:00:00Z",
+      "status": "awaiting_pickup",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99284",
+      "createdAt": "2026-10-13T10:15:00Z",
+      "updatedAt": "2026-10-14T08:00:00Z",
+      "statusHistory": [
+        {
+          "status": "matched",
+          "timestamp": "2026-10-13T16:00:00Z",
+          "actor": "Fatima Dangote",
+          "note": "Offer accepted"
+        },
+        {
+          "status": "awaiting_pickup",
+          "timestamp": "2026-10-14T08:00:00Z",
+          "actor": "System",
+          "note": "Escrow payment locked"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83925",
+      "senderId": "RCV-10113",
+      "senderName": "Halima Aliyu",
+      "mode": "traveller",
+      "packageDescription": "Legal tender documents and corporate seals",
+      "packageCategory": "Confidential Documents",
+      "packageWeight": 0.8,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=500"
+      ],
+      "declaredValue": 15000000,
+      "agreedPrice": 1500000,
+      "pickupLocation": "Central Business District, Abuja",
+      "destination": "Marina, Lagos Island, Lagos",
+      "route": "Abuja → Lagos",
+      "scheduledPickup": "2026-10-16T08:00:00Z",
+      "scheduledDelivery": "2026-10-16T18:00:00Z",
+      "status": "searching",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-14T09:00:00Z",
+      "updatedAt": "2026-10-14T09:00:00Z",
+      "statusHistory": [
+        {
+          "status": "request_created",
+          "timestamp": "2026-10-14T09:00:00Z",
+          "actor": "Halima Aliyu",
+          "note": "Broadcast to active travellers"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83926",
+      "senderId": "RCV-10123",
+      "senderName": "Genevieve Nnaji",
+      "mode": "traveller",
+      "packageDescription": "Design sample shoes and handbags for runway exhibition",
+      "packageCategory": "Luxury Goods",
+      "packageWeight": 5.5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+      ],
+      "declaredValue": 95000000,
+      "agreedPrice": 4500000,
+      "pickupLocation": "Ikoyi, Lagos",
+      "destination": "Maitama, Abuja",
+      "route": "Lagos → Abuja",
+      "scheduledPickup": "2026-10-16T10:00:00Z",
+      "scheduledDelivery": "2026-10-17T14:00:00Z",
+      "status": "offers_received",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-14T07:30:00Z",
+      "updatedAt": "2026-10-14T11:45:00Z",
+      "statusHistory": [
+        {
+          "status": "request_created",
+          "timestamp": "2026-10-14T07:30:00Z",
+          "actor": "Genevieve Nnaji",
+          "note": "Created shipment"
+        },
+        {
+          "status": "offers_received",
+          "timestamp": "2026-10-14T11:45:00Z",
+          "actor": "System",
+          "note": "Received 4 traveller offers"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83927",
+      "senderId": "RCV-10106",
+      "senderName": "Blessing Umeh",
+      "mode": "traveller",
+      "travellerId": "RCV-10110",
+      "travellerName": "Nneka Nwosu",
+      "packageDescription": "Medical diagnostic test kits and temperature-controlled reagents",
+      "packageCategory": "Medical Supplies",
+      "packageWeight": 2.1,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500"
+      ],
+      "declaredValue": 35000000,
+      "agreedPrice": 2200000,
+      "pickupLocation": "UNTH Road, Enugu",
+      "destination": "Surulere, Lagos",
+      "route": "Enugu → Lagos",
+      "scheduledPickup": "2026-10-15T07:00:00Z",
+      "scheduledDelivery": "2026-10-15T16:00:00Z",
+      "status": "matched",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-13T15:00:00Z",
+      "updatedAt": "2026-10-14T12:00:00Z",
+      "statusHistory": [
+        {
+          "status": "matched",
+          "timestamp": "2026-10-14T12:00:00Z",
+          "actor": "Blessing Umeh",
+          "note": "Matched with Nneka Nwosu"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83928",
+      "senderId": "RCV-10127",
+      "senderName": "Hadiza Bala",
+      "mode": "courier",
+      "courierId": "RCV-10130",
+      "courierName": "Dayo Amusa",
+      "packageDescription": "Specialty roasted coffee beans and cafe brewing machinery parts",
+      "packageCategory": "Commercial Goods",
+      "packageWeight": 14,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500"
+      ],
+      "declaredValue": 42000000,
+      "agreedPrice": 2500000,
+      "pickupLocation": "Asokoro, Abuja",
+      "destination": "Lekki Phase 2, Lagos",
+      "route": "Abuja → Lagos",
+      "scheduledPickup": "2026-10-14T09:00:00Z",
+      "scheduledDelivery": "2026-10-15T18:00:00Z",
+      "status": "picked_up",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99285",
+      "createdAt": "2026-10-13T11:00:00Z",
+      "updatedAt": "2026-10-14T09:30:00Z",
+      "statusHistory": [
+        {
+          "status": "picked_up",
+          "timestamp": "2026-10-14T09:30:00Z",
+          "actor": "Dayo Amusa",
+          "note": "Barcode verified at sender address"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83929",
+      "senderId": "RCV-10117",
+      "senderName": "Ngozi Okonjo",
+      "mode": "traveller",
+      "travellerId": "RCV-10125",
+      "travellerName": "Osas Ighodaro",
+      "packageDescription": "Ceramics art pieces and sculpture artifacts",
+      "packageCategory": "Art & Collectibles",
+      "packageWeight": 6,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=500"
+      ],
+      "declaredValue": 55000000,
+      "agreedPrice": 2900000,
+      "pickupLocation": "GRA, Asaba",
+      "destination": "Airport Road, Benin City",
+      "route": "Asaba → Benin City",
+      "scheduledPickup": "2026-10-13T14:00:00Z",
+      "scheduledDelivery": "2026-10-14T11:00:00Z",
+      "status": "delivered_awaiting_confirmation",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99286",
+      "createdAt": "2026-10-12T16:00:00Z",
+      "updatedAt": "2026-10-14T11:15:00Z",
+      "statusHistory": [
+        {
+          "status": "delivered_awaiting_confirmation",
+          "timestamp": "2026-10-14T11:15:00Z",
+          "actor": "Osas Ighodaro",
+          "note": "Delivery photo submitted"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83930",
+      "senderId": "RCV-10129",
+      "senderName": "Zainab Ahmed",
+      "mode": "traveller",
+      "travellerId": "RCV-10481",
+      "travellerName": "Chidi Eze",
+      "packageDescription": "Handcrafted leather boots and leather belts (damaged box)",
+      "packageCategory": "Fashion Accessories",
+      "packageWeight": 3,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+      ],
+      "declaredValue": 18000000,
+      "agreedPrice": 1600000,
+      "pickupLocation": "Bosso, Minna",
+      "destination": "Garki 2, Abuja",
+      "route": "Minna → Abuja",
+      "scheduledPickup": "2026-10-12T10:00:00Z",
+      "scheduledDelivery": "2026-10-13T15:00:00Z",
+      "status": "disputed",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99287",
+      "notes": "Recipient reports water damage to leather goods upon arrival. Chidi claims rainfall during handover.",
+      "createdAt": "2026-10-11T09:00:00Z",
+      "updatedAt": "2026-10-14T08:30:00Z",
+      "statusHistory": [
+        {
+          "status": "disputed",
+          "timestamp": "2026-10-14T08:30:00Z",
+          "actor": "Zainab Ahmed",
+          "note": "Dispute opened for package damage"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83931",
+      "senderId": "RCV-29842",
+      "senderName": "Olawale Johnson",
+      "mode": "courier",
+      "courierId": "RCV-10115",
+      "courierName": "Ronke Oshodi",
+      "packageDescription": "Industrial drone survey replacement propellers",
+      "packageCategory": "Electronics",
+      "packageWeight": 1.2,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=500"
+      ],
+      "declaredValue": 22000000,
+      "agreedPrice": 1800000,
+      "pickupLocation": "Yaba, Lagos",
+      "destination": "Trans-Amadi, Port Harcourt",
+      "route": "Lagos → Port Harcourt",
+      "scheduledPickup": "2026-10-14T15:00:00Z",
+      "scheduledDelivery": "2026-10-15T18:00:00Z",
+      "status": "cancellation_requested",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99288",
+      "notes": "Sender no longer needs emergency replacement; local technician repaired component.",
+      "createdAt": "2026-10-14T06:00:00Z",
+      "updatedAt": "2026-10-14T10:00:00Z",
+      "statusHistory": [
+        {
+          "status": "cancellation_requested",
+          "timestamp": "2026-10-14T10:00:00Z",
+          "actor": "Olawale Johnson",
+          "note": "Sender requested cancellation prior to pickup"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83932",
+      "senderId": "RCV-10112",
+      "senderName": "Femi Adebayo",
+      "mode": "traveller",
+      "travellerId": "RCV-10128",
+      "travellerName": "Emeka Anyaoku",
+      "packageDescription": "Pharmaceutical sample box for clinical lab",
+      "packageCategory": "Healthcare",
+      "packageWeight": 2.5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=500"
+      ],
+      "declaredValue": 30000000,
+      "agreedPrice": 2100000,
+      "pickupLocation": "Bodija, Ibadan",
+      "destination": "New Owerri, Owerri",
+      "route": "Ibadan → Owerri",
+      "scheduledPickup": "2026-10-13T12:00:00Z",
+      "scheduledDelivery": "2026-10-14T16:00:00Z",
+      "status": "cancellation_under_review",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99289",
+      "notes": "Traveller was late for pickup, sender requested full refund while traveller claims fuel wasted.",
+      "createdAt": "2026-10-12T08:00:00Z",
+      "updatedAt": "2026-10-14T09:15:00Z",
+      "statusHistory": [
+        {
+          "status": "cancellation_under_review",
+          "timestamp": "2026-10-14T09:15:00Z",
+          "actor": "Operations Admin",
+          "note": "Reviewing pickup timeline logs"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83933",
+      "senderId": "RCV-10121",
+      "senderName": "Maryam Booth",
+      "mode": "traveller",
+      "packageDescription": "Embroidery textile rolls",
+      "packageCategory": "Textiles",
+      "packageWeight": 7,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=500"
+      ],
+      "declaredValue": 20000000,
+      "agreedPrice": 1900000,
+      "pickupLocation": "Tarauni, Kano",
+      "destination": "Wuse, Abuja",
+      "route": "Kano → Abuja",
+      "scheduledPickup": "2026-10-10T09:00:00Z",
+      "scheduledDelivery": "2026-10-10T17:00:00Z",
+      "status": "cancelled",
+      "paymentStatus": "refunded",
+      "paymentId": "TXN-99290",
+      "createdAt": "2026-10-09T14:00:00Z",
+      "updatedAt": "2026-10-10T11:00:00Z",
+      "statusHistory": [
+        {
+          "status": "cancelled",
+          "timestamp": "2026-10-10T11:00:00Z",
+          "actor": "Maryam Booth",
+          "note": "Sender cancelled due to travel delay"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83934",
+      "senderId": "RCV-10116",
+      "senderName": "Usman Mohammed",
+      "mode": "courier",
+      "courierId": "RCV-10111",
+      "courierName": "Yakubu Danjuma",
+      "packageDescription": "Agricultural soil testing kit",
+      "packageCategory": "Agriculture Equipment",
+      "packageWeight": 4,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=500"
+      ],
+      "declaredValue": 12000000,
+      "agreedPrice": 1400000,
+      "pickupLocation": "Arkilla, Sokoto",
+      "destination": "Barnawa, Kaduna",
+      "route": "Sokoto → Kaduna",
+      "scheduledPickup": "2026-10-08T10:00:00Z",
+      "scheduledDelivery": "2026-10-09T16:00:00Z",
+      "status": "failed",
+      "paymentStatus": "refunded",
+      "paymentId": "TXN-99291",
+      "notes": "Recipient address untraceable and phone unreachable for 72 consecutive hours. Returned to sender.",
+      "createdAt": "2026-10-07T11:00:00Z",
+      "updatedAt": "2026-10-11T16:00:00Z",
+      "statusHistory": [
+        {
+          "status": "failed",
+          "timestamp": "2026-10-11T16:00:00Z",
+          "actor": "Yakubu Danjuma",
+          "note": "Recipient unreachable after 3 delivery attempts"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83935",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "mode": "traveller",
+      "packageDescription": "Smart home lighting hubs and smart plugs (x12)",
+      "packageCategory": "Home Automation",
+      "packageWeight": 3.5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1558002038-1055907df827?w=500"
+      ],
+      "declaredValue": 16000000,
+      "pickupLocation": "Victoria Island, Lagos",
+      "destination": "Independence Layout, Enugu",
+      "route": "Lagos → Enugu",
+      "scheduledPickup": "2026-10-18T09:00:00Z",
+      "scheduledDelivery": "2026-10-19T14:00:00Z",
+      "status": "draft",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-14T13:00:00Z",
+      "updatedAt": "2026-10-14T13:00:00Z",
+      "statusHistory": [
+        {
+          "status": "draft",
+          "timestamp": "2026-10-14T13:00:00Z",
+          "actor": "Amaka Obi",
+          "note": "Draft shipment saved"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83936",
+      "senderId": "RCV-10109",
+      "senderName": "Aisha Bello",
+      "mode": "traveller",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "packageDescription": "Corporate gift hampers and leather agenda diaries (x20)",
+      "packageCategory": "Corporate Gifts",
+      "packageWeight": 9,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500"
+      ],
+      "declaredValue": 38000000,
+      "agreedPrice": 2600000,
+      "pickupLocation": "Maitama, Abuja",
+      "destination": "Victoria Island, Lagos",
+      "route": "Abuja → Lagos",
+      "scheduledPickup": "2026-10-14T07:00:00Z",
+      "scheduledDelivery": "2026-10-14T19:00:00Z",
+      "status": "in_transit",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99292",
+      "createdAt": "2026-10-13T10:00:00Z",
+      "updatedAt": "2026-10-14T12:30:00Z",
+      "statusHistory": [
+        {
+          "status": "picked_up",
+          "timestamp": "2026-10-14T07:30:00Z",
+          "actor": "Tunde Bakare",
+          "note": "Picked up from Maitama"
+        },
+        {
+          "status": "in_transit",
+          "timestamp": "2026-10-14T08:30:00Z",
+          "actor": "Tunde Bakare",
+          "note": "Onboard flight"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83937",
+      "senderId": "RCV-10108",
+      "senderName": "Segun Arinze",
+      "mode": "courier",
+      "courierId": "RCV-10115",
+      "courierName": "Ronke Oshodi",
+      "packageDescription": "Offshore oilfield valves and sensor calibration manuals",
+      "packageCategory": "Industrial Machinery",
+      "packageWeight": 18.5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500"
+      ],
+      "declaredValue": 85000000,
+      "agreedPrice": 4200000,
+      "pickupLocation": "Trans-Amadi, Port Harcourt",
+      "destination": "Apapa Port Complex, Lagos",
+      "route": "Port Harcourt → Lagos",
+      "scheduledPickup": "2026-10-10T08:00:00Z",
+      "scheduledDelivery": "2026-10-11T17:00:00Z",
+      "actualDelivery": "2026-10-11T16:20:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99293",
+      "createdAt": "2026-10-08T11:00:00Z",
+      "updatedAt": "2026-10-11T16:25:00Z",
+      "statusHistory": [
+        {
+          "status": "completed",
+          "timestamp": "2026-10-11T16:25:00Z",
+          "actor": "Ronke Oshodi",
+          "note": "Signed receipt confirmed"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83938",
+      "senderId": "RCV-10107",
+      "senderName": "Fatima Dangote",
+      "mode": "traveller",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "packageDescription": "Traditional spices, shea butter and organic date paste (3 boxes)",
+      "packageCategory": "Food & Groceries",
+      "packageWeight": 12,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500"
+      ],
+      "declaredValue": 14000000,
+      "agreedPrice": 1700000,
+      "pickupLocation": "Nasarawa, Kano",
+      "destination": "Wuse Market, Abuja",
+      "route": "Kano → Abuja",
+      "scheduledPickup": "2026-10-09T09:00:00Z",
+      "scheduledDelivery": "2026-10-10T12:00:00Z",
+      "actualDelivery": "2026-10-10T11:30:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99294",
+      "createdAt": "2026-10-08T09:00:00Z",
+      "updatedAt": "2026-10-10T12:00:00Z",
+      "statusHistory": [
+        {
+          "status": "completed",
+          "timestamp": "2026-10-10T12:00:00Z",
+          "actor": "Fatima Dangote",
+          "note": "Receiver verified code"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83939",
+      "senderId": "RCV-29842",
+      "senderName": "Olawale Johnson",
+      "mode": "courier",
+      "courierId": "RCV-10130",
+      "courierName": "Dayo Amusa",
+      "packageDescription": "Architectural blueprints and 3D foam scale models",
+      "packageCategory": "Design & Architecture",
+      "packageWeight": 5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=500"
+      ],
+      "declaredValue": 24000000,
+      "agreedPrice": 1500000,
+      "pickupLocation": "Ikeja, Lagos",
+      "destination": "Bodija, Ibadan",
+      "route": "Lagos → Ibadan",
+      "scheduledPickup": "2026-10-12T08:00:00Z",
+      "scheduledDelivery": "2026-10-12T15:00:00Z",
+      "actualDelivery": "2026-10-12T14:30:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99295",
+      "createdAt": "2026-10-11T10:00:00Z",
+      "updatedAt": "2026-10-12T15:00:00Z",
+      "statusHistory": [
+        {
+          "status": "completed",
+          "timestamp": "2026-10-12T15:00:00Z",
+          "actor": "Dayo Amusa",
+          "note": "Delivered in mint condition"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83940",
+      "senderId": "RCV-10106",
+      "senderName": "Blessing Umeh",
+      "mode": "traveller",
+      "travellerId": "RCV-10110",
+      "travellerName": "Nneka Nwosu",
+      "packageDescription": "Traditional masquerade ceremonial costumes and headdress",
+      "packageCategory": "Cultural Artifacts",
+      "packageWeight": 4,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500"
+      ],
+      "declaredValue": 32000000,
+      "agreedPrice": 2000000,
+      "pickupLocation": "Independence Layout, Enugu",
+      "destination": "National Theatre Office, Abuja",
+      "route": "Enugu → Abuja",
+      "scheduledPickup": "2026-10-07T08:00:00Z",
+      "scheduledDelivery": "2026-10-08T14:00:00Z",
+      "actualDelivery": "2026-10-08T13:45:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99296",
+      "createdAt": "2026-10-06T09:00:00Z",
+      "updatedAt": "2026-10-08T14:00:00Z",
+      "statusHistory": [
+        {
+          "status": "completed",
+          "timestamp": "2026-10-08T14:00:00Z",
+          "actor": "Blessing Umeh",
+          "note": "Delivered successfully"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83941",
+      "senderId": "RCV-10119",
+      "senderName": "Funke Akindele",
+      "mode": "traveller",
+      "travellerId": "RCV-10125",
+      "travellerName": "Osas Ighodaro",
+      "packageDescription": "Custom movie sound recording microphones and mixers",
+      "packageCategory": "Audio & Video Equipment",
+      "packageWeight": 6.8,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=500"
+      ],
+      "declaredValue": 70000000,
+      "agreedPrice": 3800000,
+      "pickupLocation": "Lekki Phase 1, Lagos",
+      "destination": "Maitama, Abuja",
+      "route": "Lagos → Abuja",
+      "scheduledPickup": "2026-10-05T09:00:00Z",
+      "scheduledDelivery": "2026-10-06T15:00:00Z",
+      "actualDelivery": "2026-10-06T14:15:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99297",
+      "createdAt": "2026-10-04T12:00:00Z",
+      "updatedAt": "2026-10-06T15:00:00Z",
+      "statusHistory": [
+        {
+          "status": "completed",
+          "timestamp": "2026-10-06T15:00:00Z",
+          "actor": "Osas Ighodaro",
+          "note": "Confirmed received"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83942",
+      "senderId": "RCV-10125",
+      "senderName": "Osas Ighodaro",
+      "mode": "courier",
+      "courierId": "RCV-10130",
+      "courierName": "Dayo Amusa",
+      "packageDescription": "Bronze miniature casts and souvenir plaques (x50)",
+      "packageCategory": "Art & Collectibles",
+      "packageWeight": 15,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=500"
+      ],
+      "declaredValue": 45000000,
+      "agreedPrice": 2800000,
+      "pickupLocation": "GRA, Benin City",
+      "destination": "Victoria Island, Lagos",
+      "route": "Benin City → Lagos",
+      "scheduledPickup": "2026-10-14T08:00:00Z",
+      "scheduledDelivery": "2026-10-14T20:00:00Z",
+      "status": "in_transit",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99298",
+      "createdAt": "2026-10-13T14:00:00Z",
+      "updatedAt": "2026-10-14T11:00:00Z",
+      "statusHistory": [
+        {
+          "status": "in_transit",
+          "timestamp": "2026-10-14T11:00:00Z",
+          "actor": "Dayo Amusa",
+          "note": "Approaching Sagamu Interchange"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83943",
+      "senderId": "RCV-10127",
+      "senderName": "Hadiza Bala",
+      "mode": "traveller",
+      "packageDescription": "Laboratory glass centrifuge and sterile vials",
+      "packageCategory": "Medical Supplies",
+      "packageWeight": 3.5,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=500"
+      ],
+      "declaredValue": 28000000,
+      "agreedPrice": 2200000,
+      "pickupLocation": "Asokoro, Abuja",
+      "destination": "GRA, Port Harcourt",
+      "route": "Abuja → Port Harcourt",
+      "scheduledPickup": "2026-10-17T09:00:00Z",
+      "scheduledDelivery": "2026-10-17T18:00:00Z",
+      "status": "request_created",
+      "paymentStatus": "pending",
+      "createdAt": "2026-10-14T14:10:00Z",
+      "updatedAt": "2026-10-14T14:10:00Z",
+      "statusHistory": [
+        {
+          "status": "request_created",
+          "timestamp": "2026-10-14T14:10:00Z",
+          "actor": "Hadiza Bala",
+          "note": "Shipment posted"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83944",
+      "senderId": "RCV-10121",
+      "senderName": "Maryam Booth",
+      "mode": "courier",
+      "courierId": "RCV-10105",
+      "courierName": "Ibrahim Sani",
+      "packageDescription": "Artisanal tanned leather bags and belts (bulk order)",
+      "packageCategory": "Leather Goods",
+      "packageWeight": 25,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500"
+      ],
+      "declaredValue": 52000000,
+      "agreedPrice": 3500000,
+      "pickupLocation": "Tarauni, Kano",
+      "destination": "Ikeja Mall, Lagos",
+      "route": "Kano → Lagos",
+      "scheduledPickup": "2026-10-15T08:00:00Z",
+      "scheduledDelivery": "2026-10-17T12:00:00Z",
+      "status": "awaiting_pickup",
+      "paymentStatus": "held",
+      "paymentId": "TXN-99299",
+      "createdAt": "2026-10-14T08:00:00Z",
+      "updatedAt": "2026-10-14T10:00:00Z",
+      "statusHistory": [
+        {
+          "status": "awaiting_pickup",
+          "timestamp": "2026-10-14T10:00:00Z",
+          "actor": "System",
+          "note": "Pickup confirmed for tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "DLV-83945",
+      "senderId": "RCV-10113",
+      "senderName": "Halima Aliyu",
+      "mode": "courier",
+      "courierId": "RCV-10111",
+      "courierName": "Yakubu Danjuma",
+      "packageDescription": "Specialty educational textbooks and tablets (x15)",
+      "packageCategory": "Education",
+      "packageWeight": 11,
+      "packageImages": [
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500"
+      ],
+      "declaredValue": 31000000,
+      "agreedPrice": 2000000,
+      "pickupLocation": "Central Area, Abuja",
+      "destination": "Fagge, Kano",
+      "route": "Abuja → Kano",
+      "scheduledPickup": "2026-10-09T08:00:00Z",
+      "scheduledDelivery": "2026-10-10T14:00:00Z",
+      "actualDelivery": "2026-10-10T13:10:00Z",
+      "status": "completed",
+      "paymentStatus": "released",
+      "paymentId": "TXN-99300",
+      "createdAt": "2026-10-08T14:00:00Z",
+      "updatedAt": "2026-10-10T13:15:00Z",
+      "statusHistory": [
+        {
+          "status": "completed",
+          "timestamp": "2026-10-10T13:15:00Z",
+          "actor": "Halima Aliyu",
+          "note": "Receipt confirmed by recipient"
+        }
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "id": "TRP-58421",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "origin": "Lagos (MMA2)",
+      "destination": "Abuja (Nnamdi Azikiwe Intl)",
+      "travelDate": "2026-10-15T09:30:00Z",
+      "availableCapacity": "15 kg",
+      "meetupPoint": "MMA2 Departure Lounge, Ikeja",
+      "status": "active",
+      "createdAt": "2026-10-13T10:00:00Z"
+    },
+    {
+      "id": "TRP-58422",
+      "travellerId": "RCV-10108",
+      "travellerName": "Segun Arinze",
+      "origin": "Port Harcourt (Omagwa Airport)",
+      "destination": "Lagos (MMA2)",
+      "travelDate": "2026-10-16T11:00:00Z",
+      "availableCapacity": "10 kg",
+      "meetupPoint": "Port Harcourt Airport VIP Lounge",
+      "status": "active",
+      "createdAt": "2026-10-14T08:00:00Z"
+    },
+    {
+      "id": "TRP-58423",
+      "travellerId": "RCV-10110",
+      "travellerName": "Nneka Nwosu",
+      "origin": "Enugu (Akanu Ibiam Airport)",
+      "destination": "Lagos (MMA2)",
+      "travelDate": "2026-10-15T07:00:00Z",
+      "availableCapacity": "12 kg",
+      "meetupPoint": "Enugu Airport Ticketing Hall",
+      "status": "active",
+      "createdAt": "2026-10-13T14:00:00Z"
+    },
+    {
+      "id": "TRP-58424",
+      "travellerId": "RCV-10114",
+      "travellerName": "Chukwuma Soludo",
+      "origin": "Kano (Mallam Aminu Kano Intl)",
+      "destination": "Onitsha (Upper Iweka)",
+      "travelDate": "2026-10-15T06:00:00Z",
+      "availableCapacity": "20 kg",
+      "meetupPoint": "Kano Airport Terminal 1",
+      "status": "active",
+      "createdAt": "2026-10-12T16:00:00Z"
+    },
+    {
+      "id": "TRP-58425",
+      "travellerId": "RCV-10125",
+      "travellerName": "Osas Ighodaro",
+      "origin": "Benin City (Benin Airport)",
+      "destination": "Lagos (MMA2)",
+      "travelDate": "2026-10-16T14:00:00Z",
+      "availableCapacity": "8 kg",
+      "meetupPoint": "Benin Airport Departure Gate",
+      "status": "active",
+      "createdAt": "2026-10-14T09:30:00Z"
+    },
+    {
+      "id": "TRP-58426",
+      "travellerId": "RCV-10128",
+      "travellerName": "Emeka Anyaoku",
+      "origin": "Ibadan (Bodija)",
+      "destination": "Owerri (Sam Mbakwe Airport)",
+      "travelDate": "2026-10-17T10:00:00Z",
+      "availableCapacity": "10 kg",
+      "meetupPoint": "Bodija Market Hub, Ibadan",
+      "status": "active",
+      "createdAt": "2026-10-14T11:00:00Z"
+    },
+    {
+      "id": "TRP-58427",
+      "travellerId": "RCV-10122",
+      "travellerName": "Peter Odili",
+      "origin": "Port Harcourt (GRA)",
+      "destination": "Abuja (Central Area)",
+      "travelDate": "2026-10-18T08:00:00Z",
+      "availableCapacity": "15 kg",
+      "meetupPoint": "Omagwa Airport Air France Lounge",
+      "status": "active",
+      "createdAt": "2026-10-14T12:00:00Z"
+    },
+    {
+      "id": "TRP-58428",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "origin": "Abuja (Maitama)",
+      "destination": "Kano (Fagge)",
+      "travelDate": "2026-10-20T09:00:00Z",
+      "availableCapacity": "18 kg",
+      "meetupPoint": "Nnamdi Azikiwe Domestic Wing",
+      "status": "active",
+      "createdAt": "2026-10-14T13:00:00Z"
+    },
+    {
+      "id": "TRP-58429",
+      "travellerId": "RCV-10108",
+      "travellerName": "Segun Arinze",
+      "origin": "Lagos (Lekki)",
+      "destination": "Port Harcourt (GRA Phase 2)",
+      "travelDate": "2026-10-11T09:00:00Z",
+      "availableCapacity": "10 kg",
+      "meetupPoint": "MMA2 Terminal",
+      "status": "completed",
+      "createdAt": "2026-10-09T08:00:00Z"
+    },
+    {
+      "id": "TRP-58430",
+      "travellerId": "RCV-10481",
+      "travellerName": "Chidi Eze",
+      "origin": "Minna (Bosso)",
+      "destination": "Abuja (Garki)",
+      "travelDate": "2026-10-12T10:00:00Z",
+      "availableCapacity": "5 kg",
+      "meetupPoint": "Minna Central Motor Park",
+      "status": "completed",
+      "createdAt": "2026-10-11T09:00:00Z"
+    }
+  ],
+  "offers": [
+    {
+      "id": "OFF-10294",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83921",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "price": 3500000,
+      "message": "I have dedicated cabin luggage space and will fly direct via Air Peace.",
+      "status": "accepted",
+      "createdAt": "2026-10-10T12:00:00Z",
+      "expiresAt": "2026-10-11T12:00:00Z"
+    },
+    {
+      "id": "OFF-10295",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83926",
+      "senderId": "RCV-10123",
+      "senderName": "Genevieve Nnaji",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "price": 4500000,
+      "message": "Heading to Abuja on Oct 16 morning. Can pickup at Ikoyi on my way to airport.",
+      "status": "pending",
+      "createdAt": "2026-10-14T08:15:00Z",
+      "expiresAt": "2026-10-15T08:15:00Z"
+    },
+    {
+      "id": "OFF-10296",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83926",
+      "senderId": "RCV-10123",
+      "senderName": "Genevieve Nnaji",
+      "travellerId": "RCV-10108",
+      "travellerName": "Segun Arinze",
+      "price": 4200000,
+      "message": "Can take the fragile design pieces with protective packaging.",
+      "status": "pending",
+      "createdAt": "2026-10-14T09:00:00Z",
+      "expiresAt": "2026-10-15T09:00:00Z"
+    },
+    {
+      "id": "OFF-10297",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83926",
+      "senderId": "RCV-10123",
+      "senderName": "Genevieve Nnaji",
+      "travellerId": "RCV-10125",
+      "travellerName": "Osas Ighodaro",
+      "price": 4800000,
+      "message": "Executive VIP transport directly from Ikoyi to Maitama.",
+      "status": "pending",
+      "createdAt": "2026-10-14T09:30:00Z",
+      "expiresAt": "2026-10-15T09:30:00Z"
+    },
+    {
+      "id": "OFF-10298",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83927",
+      "senderId": "RCV-10106",
+      "senderName": "Blessing Umeh",
+      "travellerId": "RCV-10110",
+      "travellerName": "Nneka Nwosu",
+      "price": 2200000,
+      "message": "Traveling from Enugu to Lagos. I carry insulated thermal cool-bag.",
+      "status": "accepted",
+      "createdAt": "2026-10-14T08:30:00Z",
+      "expiresAt": "2026-10-14T20:30:00Z"
+    },
+    {
+      "id": "OFF-10299",
+      "type": "sender_response",
+      "deliveryId": "DLV-83925",
+      "senderId": "RCV-10113",
+      "senderName": "Halima Aliyu",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "price": 1500000,
+      "message": "Counter-offer for prompt same-day handover at Marina.",
+      "status": "pending",
+      "createdAt": "2026-10-14T11:00:00Z",
+      "expiresAt": "2026-10-15T11:00:00Z"
+    },
+    {
+      "id": "OFF-10300",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83924",
+      "senderId": "RCV-10107",
+      "senderName": "Fatima Dangote",
+      "travellerId": "RCV-10114",
+      "travellerName": "Chukwuma Soludo",
+      "price": 3000000,
+      "message": "Can carry all 10 bundles in secure trunk luggage.",
+      "status": "accepted",
+      "createdAt": "2026-10-13T12:00:00Z",
+      "expiresAt": "2026-10-14T12:00:00Z"
+    },
+    {
+      "id": "OFF-10301",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83943",
+      "senderId": "RCV-10127",
+      "senderName": "Hadiza Bala",
+      "travellerId": "RCV-10122",
+      "travellerName": "Peter Odili",
+      "price": 2200000,
+      "message": "Flying to Port Harcourt on Friday morning, will deliver directly.",
+      "status": "pending",
+      "createdAt": "2026-10-14T14:30:00Z",
+      "expiresAt": "2026-10-15T14:30:00Z"
+    },
+    {
+      "id": "OFF-10302",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83923",
+      "senderId": "RCV-10119",
+      "senderName": "Funke Akindele",
+      "travellerId": "RCV-10108",
+      "travellerName": "Segun Arinze",
+      "price": 2000000,
+      "message": "Accepted and delivered.",
+      "status": "accepted",
+      "createdAt": "2026-10-10T10:00:00Z",
+      "expiresAt": "2026-10-11T10:00:00Z"
+    },
+    {
+      "id": "OFF-10303",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83929",
+      "senderId": "RCV-10117",
+      "senderName": "Ngozi Okonjo",
+      "travellerId": "RCV-10125",
+      "travellerName": "Osas Ighodaro",
+      "price": 2900000,
+      "message": "Driving Asaba to Benin City, car has cushioned back seat for ceramics.",
+      "status": "accepted",
+      "createdAt": "2026-10-13T10:00:00Z",
+      "expiresAt": "2026-10-13T22:00:00Z"
+    },
+    {
+      "id": "OFF-10304",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83930",
+      "senderId": "RCV-10129",
+      "senderName": "Zainab Ahmed",
+      "travellerId": "RCV-10481",
+      "travellerName": "Chidi Eze",
+      "price": 1600000,
+      "message": "I commute Minna to Abuja daily.",
+      "status": "accepted",
+      "createdAt": "2026-10-11T12:00:00Z",
+      "expiresAt": "2026-10-12T12:00:00Z"
+    },
+    {
+      "id": "OFF-10305",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83936",
+      "senderId": "RCV-10109",
+      "senderName": "Aisha Bello",
+      "travellerId": "RCV-10104",
+      "travellerName": "Tunde Bakare",
+      "price": 2600000,
+      "message": "Can take the gift hampers onboard.",
+      "status": "accepted",
+      "createdAt": "2026-10-13T12:00:00Z",
+      "expiresAt": "2026-10-14T06:00:00Z"
+    },
+    {
+      "id": "OFF-10306",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83921",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "travellerId": "RCV-10125",
+      "travellerName": "Osas Ighodaro",
+      "price": 4500000,
+      "message": "Can deliver within 24 hours guaranteed.",
+      "status": "rejected",
+      "createdAt": "2026-10-10T13:00:00Z",
+      "expiresAt": "2026-10-11T13:00:00Z"
+    },
+    {
+      "id": "OFF-10307",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83921",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "travellerId": "RCV-10108",
+      "travellerName": "Segun Arinze",
+      "price": 4000000,
+      "message": "Alternative flight available.",
+      "status": "expired",
+      "createdAt": "2026-10-10T11:45:00Z",
+      "expiresAt": "2026-10-11T11:45:00Z"
+    },
+    {
+      "id": "OFF-10308",
+      "type": "traveller_bid",
+      "deliveryId": "DLV-83935",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "travellerId": "RCV-10110",
+      "travellerName": "Nneka Nwosu",
+      "price": 2100000,
+      "message": "Can pickup from VI anytime on Friday.",
+      "status": "pending",
+      "createdAt": "2026-10-14T13:30:00Z",
+      "expiresAt": "2026-10-15T13:30:00Z"
+    }
+  ],
+  "matches": [
+    {
+      "id": "MTC-39201",
+      "deliveryId": "DLV-83921",
+      "senderId": "RCV-83921",
+      "senderName": "Amaka Obi",
+      "providerId": "RCV-10104",
+      "providerName": "Tunde Bakare",
+      "providerType": "traveller",
+      "agreedPrice": 3500000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-11T09:15:00Z",
+      "route": "Lagos → Abuja"
+    },
+    {
+      "id": "MTC-39202",
+      "deliveryId": "DLV-83922",
+      "senderId": "RCV-29842",
+      "senderName": "Olawale Johnson",
+      "providerId": "RCV-10105",
+      "providerName": "Ibrahim Sani",
+      "providerType": "courier",
+      "agreedPrice": 2800000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-12T16:30:00Z",
+      "route": "Lagos → Kano"
+    },
+    {
+      "id": "MTC-39203",
+      "deliveryId": "DLV-83923",
+      "senderId": "RCV-10119",
+      "senderName": "Funke Akindele",
+      "providerId": "RCV-10108",
+      "providerName": "Segun Arinze",
+      "providerType": "traveller",
+      "agreedPrice": 2000000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-10T12:00:00Z",
+      "route": "Lagos → Port Harcourt"
+    },
+    {
+      "id": "MTC-39204",
+      "deliveryId": "DLV-83924",
+      "senderId": "RCV-10107",
+      "senderName": "Fatima Dangote",
+      "providerId": "RCV-10114",
+      "providerName": "Chukwuma Soludo",
+      "providerType": "traveller",
+      "agreedPrice": 3000000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-13T16:00:00Z",
+      "route": "Kano → Onitsha"
+    },
+    {
+      "id": "MTC-39205",
+      "deliveryId": "DLV-83927",
+      "senderId": "RCV-10106",
+      "senderName": "Blessing Umeh",
+      "providerId": "RCV-10110",
+      "providerName": "Nneka Nwosu",
+      "providerType": "traveller",
+      "agreedPrice": 2200000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-14T12:00:00Z",
+      "route": "Enugu → Lagos"
+    },
+    {
+      "id": "MTC-39206",
+      "deliveryId": "DLV-83928",
+      "senderId": "RCV-10127",
+      "senderName": "Hadiza Bala",
+      "providerId": "RCV-10130",
+      "providerName": "Dayo Amusa",
+      "providerType": "courier",
+      "agreedPrice": 2500000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-13T17:00:00Z",
+      "route": "Abuja → Lagos"
+    },
+    {
+      "id": "MTC-39207",
+      "deliveryId": "DLV-83929",
+      "senderId": "RCV-10117",
+      "senderName": "Ngozi Okonjo",
+      "providerId": "RCV-10125",
+      "providerName": "Osas Ighodaro",
+      "providerType": "traveller",
+      "agreedPrice": 2900000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-13T12:00:00Z",
+      "route": "Asaba → Benin City"
+    },
+    {
+      "id": "MTC-39208",
+      "deliveryId": "DLV-83930",
+      "senderId": "RCV-10129",
+      "senderName": "Zainab Ahmed",
+      "providerId": "RCV-10481",
+      "providerName": "Chidi Eze",
+      "providerType": "traveller",
+      "agreedPrice": 1600000,
+      "status": "disputed",
+      "matchedAt": "2026-10-11T14:00:00Z",
+      "route": "Minna → Abuja"
+    },
+    {
+      "id": "MTC-39209",
+      "deliveryId": "DLV-83931",
+      "senderId": "RCV-29842",
+      "senderName": "Olawale Johnson",
+      "providerId": "RCV-10115",
+      "providerName": "Ronke Oshodi",
+      "providerType": "courier",
+      "agreedPrice": 1800000,
+      "status": "cancelled",
+      "matchedAt": "2026-10-14T08:00:00Z",
+      "route": "Lagos → Port Harcourt"
+    },
+    {
+      "id": "MTC-39210",
+      "deliveryId": "DLV-83936",
+      "senderId": "RCV-10109",
+      "senderName": "Aisha Bello",
+      "providerId": "RCV-10104",
+      "providerName": "Tunde Bakare",
+      "providerType": "traveller",
+      "agreedPrice": 2600000,
+      "status": "confirmed",
+      "matchedAt": "2026-10-13T15:00:00Z",
+      "route": "Abuja → Lagos"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN-99281",
+      "userId": "RCV-83921",
+      "userName": "Amaka Obi",
+      "deliveryId": "DLV-83921",
+      "type": "delivery_payment",
+      "amount": 3500000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_chg_982419082",
+      "status": "succeeded",
+      "createdAt": "2026-10-11T10:00:00Z",
+      "confirmedAt": "2026-10-11T10:01:15Z",
+      "description": "Escrow payment for MacBook Pro Delivery (DLV-83921)"
+    },
+    {
+      "id": "TXN-99282",
+      "userId": "RCV-29842",
+      "userName": "Olawale Johnson",
+      "deliveryId": "DLV-83922",
+      "type": "delivery_payment",
+      "amount": 2800000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "wallet",
+      "providerRef": "wlt_txn_390192",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T17:00:00Z",
+      "confirmedAt": "2026-10-12T17:00:05Z",
+      "description": "Escrow payment for Solar Inverter (DLV-83922)"
+    },
+    {
+      "id": "TXN-99283",
+      "userId": "RCV-10119",
+      "userName": "Funke Akindele",
+      "deliveryId": "DLV-83923",
+      "type": "delivery_payment",
+      "amount": 2000000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_chg_1829031",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T12:30:00Z",
+      "confirmedAt": "2026-10-10T12:35:10Z",
+      "description": "Payment for Bridal Attire Delivery (DLV-83923)"
+    },
+    {
+      "id": "TXN-99284",
+      "userId": "RCV-10107",
+      "userName": "Fatima Dangote",
+      "deliveryId": "DLV-83924",
+      "type": "delivery_payment",
+      "amount": 3000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "flutterwave",
+      "providerRef": "flw_ref_8902819",
+      "status": "succeeded",
+      "createdAt": "2026-10-14T08:00:00Z",
+      "confirmedAt": "2026-10-14T08:01:22Z",
+      "description": "Escrow lock for Brocade Fabrics (DLV-83924)"
+    },
+    {
+      "id": "TXN-99285",
+      "userId": "RCV-10127",
+      "userName": "Hadiza Bala",
+      "deliveryId": "DLV-83928",
+      "type": "delivery_payment",
+      "amount": 2500000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "wallet",
+      "providerRef": "wlt_txn_390195",
+      "status": "succeeded",
+      "createdAt": "2026-10-14T09:00:00Z",
+      "confirmedAt": "2026-10-14T09:00:02Z",
+      "description": "Escrow payment for Coffee Machinery (DLV-83928)"
+    },
+    {
+      "id": "TXN-99286",
+      "userId": "RCV-10117",
+      "userName": "Ngozi Okonjo",
+      "deliveryId": "DLV-83929",
+      "type": "delivery_payment",
+      "amount": 2900000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_chg_5739102",
+      "status": "succeeded",
+      "createdAt": "2026-10-13T12:30:00Z",
+      "confirmedAt": "2026-10-13T12:32:00Z",
+      "description": "Escrow payment for Art Ceramics (DLV-83929)"
+    },
+    {
+      "id": "TXN-99287",
+      "userId": "RCV-10129",
+      "userName": "Zainab Ahmed",
+      "deliveryId": "DLV-83930",
+      "type": "delivery_payment",
+      "amount": 1600000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_chg_7820194",
+      "status": "succeeded",
+      "createdAt": "2026-10-11T14:30:00Z",
+      "confirmedAt": "2026-10-11T14:31:45Z",
+      "description": "Disputed delivery hold for Leather Boots (DLV-83930)"
+    },
+    {
+      "id": "TXN-99288",
+      "userId": "RCV-29842",
+      "userName": "Olawale Johnson",
+      "deliveryId": "DLV-83931",
+      "type": "delivery_payment",
+      "amount": 1800000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "wallet",
+      "providerRef": "wlt_txn_390199",
+      "status": "succeeded",
+      "createdAt": "2026-10-14T08:15:00Z",
+      "confirmedAt": "2026-10-14T08:15:02Z",
+      "description": "Escrow payment for Drone Propellers (DLV-83931)"
+    },
+    {
+      "id": "TXN-99289",
+      "userId": "RCV-10112",
+      "userName": "Femi Adebayo",
+      "deliveryId": "DLV-83932",
+      "type": "delivery_payment",
+      "amount": 2100000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_chg_3419082",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T09:00:00Z",
+      "confirmedAt": "2026-10-12T09:05:00Z",
+      "description": "Escrow hold for Medical Samples (DLV-83932)"
+    },
+    {
+      "id": "TXN-99290",
+      "userId": "RCV-10121",
+      "userName": "Maryam Booth",
+      "deliveryId": "DLV-83933",
+      "type": "delivery_payment",
+      "amount": 1900000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_chg_2948190",
+      "status": "succeeded",
+      "createdAt": "2026-10-09T14:30:00Z",
+      "confirmedAt": "2026-10-09T14:32:00Z",
+      "description": "Original payment for cancelled shipment DLV-83933"
+    },
+    {
+      "id": "TXN-99301",
+      "userId": "RCV-29842",
+      "userName": "Olawale Johnson",
+      "type": "wallet_funding",
+      "amount": 10000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_491028",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T09:00:00Z",
+      "confirmedAt": "2026-10-10T09:01:10Z",
+      "description": "Wallet top-up via Mastercard"
+    },
+    {
+      "id": "TXN-99302",
+      "userId": "RCV-10107",
+      "userName": "Fatima Dangote",
+      "type": "wallet_funding",
+      "amount": 50000000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_948201",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T11:20:00Z",
+      "confirmedAt": "2026-10-12T11:25:30Z",
+      "description": "Corporate wallet funding from Zenith Bank"
+    },
+    {
+      "id": "TXN-99303",
+      "userId": "RCV-10119",
+      "userName": "Funke Akindele",
+      "type": "wallet_funding",
+      "amount": 30000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_849201",
+      "status": "succeeded",
+      "createdAt": "2026-10-13T15:10:00Z",
+      "confirmedAt": "2026-10-13T15:11:40Z",
+      "description": "Wallet deposit via Visa"
+    },
+    {
+      "id": "TXN-99304",
+      "userId": "RCV-10123",
+      "userName": "Genevieve Nnaji",
+      "type": "wallet_funding",
+      "amount": 100000000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_284910",
+      "status": "succeeded",
+      "createdAt": "2026-10-08T10:00:00Z",
+      "confirmedAt": "2026-10-08T10:05:12Z",
+      "description": "Direct corporate bank transfer funding"
+    },
+    {
+      "id": "TXN-99305",
+      "userId": "RCV-10113",
+      "userName": "Halima Aliyu",
+      "type": "wallet_funding",
+      "amount": 15000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "flutterwave",
+      "providerRef": "flw_fund_583920",
+      "status": "succeeded",
+      "createdAt": "2026-10-11T13:45:00Z",
+      "confirmedAt": "2026-10-11T13:46:18Z",
+      "description": "Wallet funding via Flutterwave checkout"
+    },
+    {
+      "id": "TXN-99306",
+      "userId": "RCV-10127",
+      "userName": "Hadiza Bala",
+      "type": "wallet_funding",
+      "amount": 20000000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_372910",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T14:30:00Z",
+      "confirmedAt": "2026-10-12T14:34:00Z",
+      "description": "Virtual account bank deposit"
+    },
+    {
+      "id": "TXN-99307",
+      "userId": "RCV-10112",
+      "userName": "Femi Adebayo",
+      "type": "wallet_funding",
+      "amount": 5000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_920194",
+      "status": "failed",
+      "createdAt": "2026-10-13T09:15:00Z",
+      "description": "Failed wallet top-up: Insufficient funds in customer bank account"
+    },
+    {
+      "id": "TXN-99308",
+      "userId": "RCV-83921",
+      "userName": "Amaka Obi",
+      "type": "wallet_funding",
+      "amount": 25000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_839201",
+      "status": "succeeded",
+      "createdAt": "2026-10-09T16:00:00Z",
+      "confirmedAt": "2026-10-09T16:01:25Z",
+      "description": "Wallet credit via debit card"
+    },
+    {
+      "id": "TXN-99309",
+      "userId": "RCV-10106",
+      "userName": "Blessing Umeh",
+      "type": "wallet_funding",
+      "amount": 10000000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_102948",
+      "status": "succeeded",
+      "createdAt": "2026-10-07T12:00:00Z",
+      "confirmedAt": "2026-10-07T12:04:15Z",
+      "description": "Bank transfer credit"
+    },
+    {
+      "id": "TXN-99310",
+      "userId": "RCV-10117",
+      "userName": "Ngozi Okonjo",
+      "type": "wallet_funding",
+      "amount": 12000000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_fund_564738",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T14:10:00Z",
+      "confirmedAt": "2026-10-10T14:11:15Z",
+      "description": "Card top-up"
+    },
+    {
+      "id": "TXN-99311",
+      "userId": "RCV-10108",
+      "userName": "Segun Arinze",
+      "deliveryId": "DLV-83923",
+      "type": "traveller_payout",
+      "amount": 1800000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_98201948",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T14:30:00Z",
+      "confirmedAt": "2026-10-12T14:32:00Z",
+      "description": "Payout for completed delivery DLV-83923 to GTBank account"
+    },
+    {
+      "id": "TXN-99312",
+      "userId": "RCV-10115",
+      "userName": "Ronke Oshodi",
+      "deliveryId": "DLV-83937",
+      "type": "courier_payout",
+      "amount": 3780000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_74829104",
+      "status": "succeeded",
+      "createdAt": "2026-10-11T17:00:00Z",
+      "confirmedAt": "2026-10-11T17:03:00Z",
+      "description": "Payout for industrial machinery shipment DLV-83937"
+    },
+    {
+      "id": "TXN-99313",
+      "userId": "RCV-10104",
+      "userName": "Tunde Bakare",
+      "deliveryId": "DLV-83938",
+      "type": "traveller_payout",
+      "amount": 1530000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_49201948",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T12:30:00Z",
+      "confirmedAt": "2026-10-10T12:31:40Z",
+      "description": "Payout for food delivery DLV-83938"
+    },
+    {
+      "id": "TXN-99314",
+      "userId": "RCV-10130",
+      "userName": "Dayo Amusa",
+      "deliveryId": "DLV-83939",
+      "type": "courier_payout",
+      "amount": 1350000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_28391048",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T15:30:00Z",
+      "confirmedAt": "2026-10-12T15:32:10Z",
+      "description": "Payout for architectural models shipment DLV-83939"
+    },
+    {
+      "id": "TXN-99315",
+      "userId": "RCV-10110",
+      "userName": "Nneka Nwosu",
+      "deliveryId": "DLV-83940",
+      "type": "traveller_payout",
+      "amount": 1800000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_19482019",
+      "status": "succeeded",
+      "createdAt": "2026-10-08T14:30:00Z",
+      "confirmedAt": "2026-10-08T14:33:00Z",
+      "description": "Payout for traditional costume transport DLV-83940"
+    },
+    {
+      "id": "TXN-99316",
+      "userId": "RCV-10121",
+      "userName": "Maryam Booth",
+      "deliveryId": "DLV-83933",
+      "type": "refund",
+      "amount": 1900000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_rfd_8492019",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T11:15:00Z",
+      "confirmedAt": "2026-10-10T11:18:20Z",
+      "description": "Full refund for cancelled delivery DLV-83933"
+    },
+    {
+      "id": "TXN-99317",
+      "userId": "RCV-10116",
+      "userName": "Usman Mohammed",
+      "deliveryId": "DLV-83934",
+      "type": "refund",
+      "amount": 1400000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "wallet",
+      "providerRef": "wlt_rfd_294810",
+      "status": "succeeded",
+      "createdAt": "2026-10-11T16:30:00Z",
+      "confirmedAt": "2026-10-11T16:30:02Z",
+      "description": "Wallet refund for failed unreachable delivery DLV-83934"
+    },
+    {
+      "id": "TXN-99318",
+      "userId": "RCV-29842",
+      "userName": "Olawale Johnson",
+      "deliveryId": "DLV-83931",
+      "type": "refund",
+      "amount": 1800000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "wallet",
+      "providerRef": "wlt_rfd_482910",
+      "status": "processing",
+      "createdAt": "2026-10-14T10:15:00Z",
+      "description": "Pending refund for cancellation request prior to pickup"
+    },
+    {
+      "id": "TXN-99319",
+      "userId": "RCV-10129",
+      "userName": "Zainab Ahmed",
+      "deliveryId": "DLV-83930",
+      "type": "refund",
+      "amount": 1600000,
+      "currency": "NGN",
+      "method": "card",
+      "provider": "paystack",
+      "providerRef": "pstk_rfd_3820194",
+      "status": "pending",
+      "createdAt": "2026-10-14T08:45:00Z",
+      "description": "Refund claim under review for damaged leather cargo DLV-83930"
+    },
+    {
+      "id": "TXN-99320",
+      "userId": "RCV-10112",
+      "userName": "Femi Adebayo",
+      "deliveryId": "DLV-83932",
+      "type": "refund",
+      "amount": 2100000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_rfd_1948201",
+      "status": "pending",
+      "createdAt": "2026-10-14T09:30:00Z",
+      "description": "Refund requested for late pickup cancellation DLV-83932"
+    },
+    {
+      "id": "TXN-99321",
+      "userId": "RCV-10119",
+      "userName": "Funke Akindele",
+      "deliveryId": "DLV-83923",
+      "type": "platform_fee",
+      "amount": 200000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "system",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T14:00:00Z",
+      "confirmedAt": "2026-10-12T14:00:01Z",
+      "description": "Platform service commission for DLV-83923"
+    },
+    {
+      "id": "TXN-99322",
+      "userId": "RCV-10108",
+      "userName": "Segun Arinze",
+      "deliveryId": "DLV-83937",
+      "type": "platform_fee",
+      "amount": 420000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "system",
+      "status": "succeeded",
+      "createdAt": "2026-10-11T16:25:00Z",
+      "confirmedAt": "2026-10-11T16:25:01Z",
+      "description": "Platform service commission for DLV-83937"
+    },
+    {
+      "id": "TXN-99323",
+      "userId": "RCV-10107",
+      "userName": "Fatima Dangote",
+      "deliveryId": "DLV-83938",
+      "type": "platform_fee",
+      "amount": 170000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "system",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T12:00:00Z",
+      "confirmedAt": "2026-10-10T12:00:01Z",
+      "description": "Platform commission for DLV-83938"
+    },
+    {
+      "id": "TXN-99324",
+      "userId": "RCV-29842",
+      "userName": "Olawale Johnson",
+      "deliveryId": "DLV-83939",
+      "type": "platform_fee",
+      "amount": 150000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "system",
+      "status": "succeeded",
+      "createdAt": "2026-10-12T15:00:00Z",
+      "confirmedAt": "2026-10-12T15:00:01Z",
+      "description": "Platform commission for DLV-83939"
+    },
+    {
+      "id": "TXN-99325",
+      "userId": "RCV-10106",
+      "userName": "Blessing Umeh",
+      "deliveryId": "DLV-83940",
+      "type": "platform_fee",
+      "amount": 200000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "system",
+      "status": "succeeded",
+      "createdAt": "2026-10-08T14:00:00Z",
+      "confirmedAt": "2026-10-08T14:00:01Z",
+      "description": "Platform commission for DLV-83940"
+    },
+    {
+      "id": "TXN-99326",
+      "userId": "RCV-10125",
+      "userName": "Osas Ighodaro",
+      "deliveryId": "DLV-83941",
+      "type": "traveller_payout",
+      "amount": 3420000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_3829104",
+      "status": "succeeded",
+      "createdAt": "2026-10-06T15:30:00Z",
+      "confirmedAt": "2026-10-06T15:33:00Z",
+      "description": "Payout for movie sound equipment transport DLV-83941"
+    },
+    {
+      "id": "TXN-99327",
+      "userId": "RCV-10111",
+      "userName": "Yakubu Danjuma",
+      "deliveryId": "DLV-83945",
+      "type": "courier_payout",
+      "amount": 1800000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "providerRef": "pstk_trf_5839201",
+      "status": "succeeded",
+      "createdAt": "2026-10-10T13:45:00Z",
+      "confirmedAt": "2026-10-10T13:48:00Z",
+      "description": "Courier payout for Abuja-Kano books DLV-83945"
+    },
+    {
+      "id": "TXN-99328",
+      "userId": "RCV-10481",
+      "userName": "Chidi Eze",
+      "type": "adjustment",
+      "amount": -500000,
+      "currency": "NGN",
+      "method": "wallet",
+      "provider": "system",
+      "status": "succeeded",
+      "createdAt": "2026-10-14T12:00:00Z",
+      "confirmedAt": "2026-10-14T12:00:01Z",
+      "description": "Administrative penalty deduction for policy breach in moderation report RPT-10481"
+    },
+    {
+      "id": "TXN-99329",
+      "userId": "RCV-10125",
+      "userName": "Osas Ighodaro",
+      "deliveryId": "DLV-83929",
+      "type": "traveller_payout",
+      "amount": 2610000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "status": "processing",
+      "createdAt": "2026-10-14T11:30:00Z",
+      "description": "Awaiting recipient confirmation to release payout for DLV-83929"
+    },
+    {
+      "id": "TXN-99330",
+      "userId": "RCV-10104",
+      "userName": "Tunde Bakare",
+      "deliveryId": "DLV-83936",
+      "type": "traveller_payout",
+      "amount": 2340000,
+      "currency": "NGN",
+      "method": "bank_transfer",
+      "provider": "paystack",
+      "status": "pending",
+      "createdAt": "2026-10-14T13:00:00Z",
+      "description": "Held in escrow until DLV-83936 completes"
+    }
+  ],
+  "refunds": [
+    {
+      "id": "RFD-10291",
+      "originalPaymentId": "TXN-99290",
+      "deliveryId": "DLV-83933",
+      "requesterId": "RCV-10121",
+      "requesterName": "Maryam Booth",
+      "amount": 1900000,
+      "maxRefundable": 1900000,
+      "reason": "Cancellation made before traveller accepted or dispatched",
+      "policyEligibility": "Eligible for 100% full refund under standard cancellation window (< 2 hours)",
+      "status": "succeeded",
+      "reviewedBy": "ADM-003",
+      "approvedBy": "ADM-003",
+      "executedBy": "ADM-003",
+      "providerRef": "pstk_rfd_8492019",
+      "notes": "Refund auto-processed back to original card successfully.",
+      "createdAt": "2026-10-10T11:05:00Z",
+      "updatedAt": "2026-10-10T11:18:20Z"
+    },
+    {
+      "id": "RFD-10292",
+      "originalPaymentId": "TXN-99291",
+      "deliveryId": "DLV-83934",
+      "requesterId": "RCV-10116",
+      "requesterName": "Usman Mohammed",
+      "amount": 1400000,
+      "maxRefundable": 1400000,
+      "reason": "Delivery failed due to unreachable recipient after 72 hours and returned to sender",
+      "policyEligibility": "Eligible for wallet refund less return logistics handling fee waiver",
+      "status": "succeeded",
+      "reviewedBy": "ADM-003",
+      "approvedBy": "ADM-001",
+      "executedBy": "ADM-003",
+      "providerRef": "wlt_rfd_294810",
+      "notes": "Approved as store wallet credit per sender request.",
+      "createdAt": "2026-10-11T16:15:00Z",
+      "updatedAt": "2026-10-11T16:30:02Z"
+    },
+    {
+      "id": "RFD-10293",
+      "originalPaymentId": "TXN-99288",
+      "deliveryId": "DLV-83931",
+      "requesterId": "RCV-29842",
+      "requesterName": "Olawale Johnson",
+      "amount": 1800000,
+      "maxRefundable": 1800000,
+      "reason": "Sender cancelled order before courier pickup",
+      "policyEligibility": "Eligible for 100% refund as courier had not yet been dispatched",
+      "status": "approved",
+      "reviewedBy": "ADM-003",
+      "approvedBy": "ADM-003",
+      "notes": "Approved for payout processing during next batch cycle.",
+      "createdAt": "2026-10-14T10:05:00Z",
+      "updatedAt": "2026-10-14T10:45:00Z"
+    },
+    {
+      "id": "RFD-10294",
+      "originalPaymentId": "TXN-99287",
+      "deliveryId": "DLV-83930",
+      "requesterId": "RCV-10129",
+      "requesterName": "Zainab Ahmed",
+      "amount": 1600000,
+      "maxRefundable": 1600000,
+      "reason": "Package water damage in transit resulting in ruined leather products",
+      "policyEligibility": "Under claim verification. Cargo insurance policy applicable up to declared value.",
+      "status": "under_review",
+      "reviewedBy": "ADM-004",
+      "notes": "Support Ticket TKT-83922 open. Photos submitted by recipient being reviewed.",
+      "createdAt": "2026-10-14T08:40:00Z",
+      "updatedAt": "2026-10-14T09:10:00Z"
+    },
+    {
+      "id": "RFD-10295",
+      "originalPaymentId": "TXN-99289",
+      "deliveryId": "DLV-83932",
+      "requesterId": "RCV-10112",
+      "requesterName": "Femi Adebayo",
+      "amount": 2100000,
+      "maxRefundable": 2100000,
+      "reason": "Traveller was over 3 hours late to agreed pickup venue",
+      "policyEligibility": "Partial or full refund subject to courier waiting time policy",
+      "status": "requested",
+      "notes": "Awaiting statements from traveller Emeka Anyaoku.",
+      "createdAt": "2026-10-14T09:20:00Z",
+      "updatedAt": "2026-10-14T09:20:00Z"
+    }
+  ],
+  "payouts": [
+    {
+      "id": "PAY-48191",
+      "recipientId": "RCV-10108",
+      "recipientName": "Segun Arinze",
+      "recipientType": "traveller",
+      "deliveryId": "DLV-83923",
+      "grossAmount": 2000000,
+      "fees": 200000,
+      "netAmount": 1800000,
+      "destinationRef": "GTBank •••• 4821",
+      "status": "succeeded",
+      "approvedBy": "ADM-003",
+      "providerRef": "pstk_trf_98201948",
+      "createdAt": "2026-10-12T14:15:00Z",
+      "updatedAt": "2026-10-12T14:32:00Z"
+    },
+    {
+      "id": "PAY-48192",
+      "recipientId": "RCV-10115",
+      "recipientName": "Ronke Oshodi",
+      "recipientType": "courier",
+      "deliveryId": "DLV-83937",
+      "grossAmount": 4200000,
+      "fees": 420000,
+      "netAmount": 3780000,
+      "destinationRef": "Access Bank •••• 9012",
+      "status": "succeeded",
+      "approvedBy": "ADM-003",
+      "providerRef": "pstk_trf_74829104",
+      "createdAt": "2026-10-11T16:45:00Z",
+      "updatedAt": "2026-10-11T17:03:00Z"
+    },
+    {
+      "id": "PAY-48193",
+      "recipientId": "RCV-10130",
+      "recipientName": "Dayo Amusa",
+      "recipientType": "courier",
+      "deliveryId": "DLV-83939",
+      "grossAmount": 1500000,
+      "fees": 150000,
+      "netAmount": 1350000,
+      "destinationRef": "Zenith Bank •••• 3341",
+      "status": "succeeded",
+      "approvedBy": "ADM-003",
+      "providerRef": "pstk_trf_28391048",
+      "createdAt": "2026-10-12T15:15:00Z",
+      "updatedAt": "2026-10-12T15:32:10Z"
+    },
+    {
+      "id": "PAY-48194",
+      "recipientId": "RCV-10125",
+      "recipientName": "Osas Ighodaro",
+      "recipientType": "traveller",
+      "deliveryId": "DLV-83929",
+      "grossAmount": 2900000,
+      "fees": 290000,
+      "netAmount": 2610000,
+      "destinationRef": "First Bank •••• 7729",
+      "status": "pending_approval",
+      "createdAt": "2026-10-14T11:20:00Z",
+      "updatedAt": "2026-10-14T11:20:00Z"
+    },
+    {
+      "id": "PAY-48195",
+      "recipientId": "RCV-10105",
+      "recipientName": "Ibrahim Sani",
+      "recipientType": "courier",
+      "deliveryId": "DLV-83944",
+      "grossAmount": 3500000,
+      "fees": 350000,
+      "netAmount": 3150000,
+      "destinationRef": "Kuda Bank •••• 5510",
+      "status": "pending_approval",
+      "createdAt": "2026-10-14T13:45:00Z",
+      "updatedAt": "2026-10-14T13:45:00Z"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "TKT-83921",
+      "title": "Delayed High-Value Delivery - MacBook Pro & iPad Pro (DLV-83921)",
+      "customerId": "RCV-83921",
+      "customerName": "Amaka Obi",
+      "category": "Delayed Delivery",
+      "priority": "critical",
+      "status": "escalated",
+      "assignedTeam": "Tier 2 Logistics Escalations",
+      "assignedAgent": "Emeka Nnamani",
+      "deliveryId": "DLV-83921",
+      "paymentId": "TXN-99281",
+      "createdAt": "2026-10-13T18:30:00Z",
+      "updatedAt": "2026-10-14T14:15:00Z",
+      "slaStatus": "at_risk",
+      "events": [
+        {
+          "id": "EVT-001",
+          "type": "customer_reply",
+          "content": "My package was scheduled for delivery yesterday at 5:00 PM. The traveller Tunde Bakare is not responding to calls and WhatsApp. This contains my work MacBook Pro valued at ₦1,250,000!",
+          "author": "Amaka Obi",
+          "authorRole": "customer",
+          "isInternal": false,
+          "createdAt": "2026-10-13T18:30:00Z"
+        },
+        {
+          "id": "EVT-002",
+          "type": "agent_reply",
+          "content": "Hello Amaka, we take high-value deliveries extremely seriously. Your funds remain 100% safeguarded in escrow. I am initiating direct carrier verification and contacting Tunde via priority logistics dispatch.",
+          "author": "Emeka Nnamani",
+          "authorRole": "agent",
+          "isInternal": false,
+          "createdAt": "2026-10-13T19:00:00Z"
+        },
+        {
+          "id": "EVT-003",
+          "type": "note",
+          "content": "Spoke with traveller Tunde Bakare. His Air Peace flight was redirected due to heavy rainstorm in Abuja. He landed at Kaduna and is taking high-speed rail to Abuja Idu station. ETA Abuja 3:30 PM today.",
+          "author": "Emeka Nnamani",
+          "authorRole": "agent",
+          "isInternal": true,
+          "createdAt": "2026-10-14T09:15:00Z"
+        },
+        {
+          "id": "EVT-004",
+          "type": "escalation",
+          "content": "Escalated to Operations Lead Babatunde Adeleke for GPS liveness tracking and customer reassurance.",
+          "author": "Emeka Nnamani",
+          "authorRole": "agent",
+          "isInternal": true,
+          "createdAt": "2026-10-14T09:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-83922",
+      "title": "Cargo Water Damage Claim - Handcrafted Leather Boots",
+      "customerId": "RCV-10129",
+      "customerName": "Zainab Ahmed",
+      "category": "Damaged Item",
+      "priority": "high",
+      "status": "in_progress",
+      "assignedTeam": "Disputes & Claims",
+      "assignedAgent": "Emeka Nnamani",
+      "deliveryId": "DLV-83930",
+      "paymentId": "TXN-99287",
+      "refundId": "RFD-10294",
+      "createdAt": "2026-10-14T08:35:00Z",
+      "updatedAt": "2026-10-14T11:20:00Z",
+      "slaStatus": "within_sla",
+      "events": [
+        {
+          "id": "EVT-005",
+          "type": "customer_reply",
+          "content": "The package arrived completely drenched with water stains on the Italian calfskin boots. The packaging had no waterproof polythene wrapping.",
+          "author": "Zainab Ahmed",
+          "authorRole": "customer",
+          "isInternal": false,
+          "createdAt": "2026-10-14T08:35:00Z"
+        },
+        {
+          "id": "EVT-006",
+          "type": "agent_reply",
+          "content": "Thank you for providing the photos Zainab. Our Trust & Safety team has initiated a cargo claim review. Escrow funds will remain held.",
+          "author": "Emeka Nnamani",
+          "authorRole": "agent",
+          "isInternal": false,
+          "createdAt": "2026-10-14T09:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-83923",
+      "title": "Cancellation Fee Dispute - Clinical Samples DLV-83932",
+      "customerId": "RCV-10112",
+      "customerName": "Femi Adebayo",
+      "category": "Payment Issue",
+      "priority": "normal",
+      "status": "open",
+      "assignedTeam": "Customer Experience",
+      "deliveryId": "DLV-83932",
+      "paymentId": "TXN-99289",
+      "refundId": "RFD-10295",
+      "createdAt": "2026-10-14T09:40:00Z",
+      "updatedAt": "2026-10-14T10:15:00Z",
+      "slaStatus": "within_sla",
+      "events": [
+        {
+          "id": "EVT-007",
+          "type": "customer_reply",
+          "content": "The traveller was 3 hours late. I had to leave for hospital surgery. I want my ₦21,000 refund with no penalty charges deducted.",
+          "author": "Femi Adebayo",
+          "authorRole": "customer",
+          "isInternal": false,
+          "createdAt": "2026-10-14T09:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-83924",
+      "title": "NIN Verification Name Order Discrepancy",
+      "customerId": "RCV-10112",
+      "customerName": "Femi Adebayo",
+      "category": "Account Access",
+      "priority": "low",
+      "status": "in_progress",
+      "assignedTeam": "Trust & Verification",
+      "assignedAgent": "Folake Balogun",
+      "createdAt": "2026-10-13T11:00:00Z",
+      "updatedAt": "2026-10-14T09:00:00Z",
+      "slaStatus": "within_sla",
+      "events": [
+        {
+          "id": "EVT-008",
+          "type": "customer_reply",
+          "content": "My NIN portal shows Adebayo Femi Oluwaseun, but my Racvest account had Femi Adebayo. Please update so my verification goes through.",
+          "author": "Femi Adebayo",
+          "authorRole": "customer",
+          "isInternal": false,
+          "createdAt": "2026-10-13T11:00:00Z"
+        },
+        {
+          "id": "EVT-009",
+          "type": "agent_reply",
+          "content": "We have matched your NIMC slip with your bank BVN records and updated your profile name accordingly.",
+          "author": "Folake Balogun",
+          "authorRole": "agent",
+          "isInternal": false,
+          "createdAt": "2026-10-14T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-83925",
+      "title": "Resolution of Unreachable Receiver - Agricultural Kit DLV-83934",
+      "customerId": "RCV-10116",
+      "customerName": "Usman Mohammed",
+      "category": "Delivery Inquiries",
+      "priority": "normal",
+      "status": "resolved",
+      "assignedTeam": "Logistics Exceptions",
+      "assignedAgent": "Babatunde Adeleke",
+      "deliveryId": "DLV-83934",
+      "paymentId": "TXN-99291",
+      "refundId": "RFD-10292",
+      "createdAt": "2026-10-10T14:00:00Z",
+      "updatedAt": "2026-10-11T16:35:00Z",
+      "resolvedAt": "2026-10-11T16:35:00Z",
+      "resolution": {
+        "type": "full_refund_to_wallet",
+        "summary": "Package returned to sender in Sokoto undamaged. Full escrow amount refunded to sender wallet.",
+        "decision": "Waived courier return surcharge as a courtesy for first-time user.",
+        "financialOutcome": "₦14,000.00 credited to RCV-10116 wallet",
+        "resolvedBy": "Babatunde Adeleke",
+        "resolvedAt": "2026-10-11T16:35:00Z"
+      },
+      "events": [
+        {
+          "id": "EVT-010",
+          "type": "note",
+          "content": "Receiver phone switched off for 3 days. Item safely returned to sender depot in Sokoto.",
+          "author": "Babatunde Adeleke",
+          "authorRole": "agent",
+          "isInternal": true,
+          "createdAt": "2026-10-11T15:00:00Z"
+        }
+      ],
+      "slaStatus": "within_sla"
+    },
+    {
+      "id": "TKT-83926",
+      "title": "Monthly Consolidated VAT Invoice Request",
+      "customerId": "RCV-10107",
+      "customerName": "Fatima Dangote",
+      "category": "Billing & Invoicing",
+      "priority": "low",
+      "status": "waiting_customer",
+      "assignedTeam": "Finance & Billing",
+      "assignedAgent": "Zainab Musa",
+      "createdAt": "2026-10-12T10:00:00Z",
+      "updatedAt": "2026-10-13T12:00:00Z",
+      "slaStatus": "within_sla",
+      "events": [
+        {
+          "id": "EVT-011",
+          "type": "agent_reply",
+          "content": "Good day Hajiya Fatima, your September 2026 tax invoice with FIRS TIN has been compiled. Please confirm the registered corporate email address.",
+          "author": "Zainab Musa",
+          "authorRole": "agent",
+          "isInternal": false,
+          "createdAt": "2026-10-13T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-83927",
+      "title": "Account Suspension Review Request - Cargo Diversion Case",
+      "customerId": "RCV-10120",
+      "customerName": "Taribo West",
+      "category": "Trust & Safety",
+      "priority": "high",
+      "status": "closed",
+      "assignedTeam": "Trust & Safety Legal",
+      "assignedAgent": "Folake Balogun",
+      "createdAt": "2026-10-10T09:00:00Z",
+      "updatedAt": "2026-10-11T11:00:00Z",
+      "resolvedAt": "2026-10-11T11:00:00Z",
+      "resolution": {
+        "type": "appeal_rejected",
+        "summary": "Permanent ban upheld following conclusive GPS logs and warehouse surveillance footage confirming deliberate cargo tampering.",
+        "decision": "Banning is non-negotiable. Nigerian Police Force case file NPF-SZ-9921.",
+        "financialOutcome": "Zero balance remaining; account de-indexed",
+        "resolvedBy": "Folake Balogun",
+        "resolvedAt": "2026-10-11T11:00:00Z"
+      },
+      "events": [
+        {
+          "id": "EVT-012",
+          "type": "status_change",
+          "content": "Ticket permanently closed. User blacklist maintained.",
+          "author": "Folake Balogun",
+          "authorRole": "agent",
+          "isInternal": true,
+          "createdAt": "2026-10-11T11:00:00Z"
+        }
+      ],
+      "slaStatus": "within_sla"
+    },
+    {
+      "id": "TKT-83928",
+      "title": "Bank Transfer Settlement Delay to Kuda Bank",
+      "customerId": "RCV-10105",
+      "customerName": "Ibrahim Sani",
+      "category": "Payment Issue",
+      "priority": "normal",
+      "status": "waiting_internal",
+      "assignedTeam": "Finance & Treasury",
+      "assignedAgent": "Zainab Musa",
+      "createdAt": "2026-10-14T11:30:00Z",
+      "updatedAt": "2026-10-14T13:00:00Z",
+      "slaStatus": "within_sla",
+      "events": [
+        {
+          "id": "EVT-013",
+          "type": "note",
+          "content": "NIBSS instant payment settlement timeout on Kuda Bank API switch. Monitoring retry queue.",
+          "author": "Zainab Musa",
+          "authorRole": "agent",
+          "isInternal": true,
+          "createdAt": "2026-10-14T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-83929",
+      "title": "Emergency Delivery Address Reroute in Abuja",
+      "customerId": "RCV-10127",
+      "customerName": "Hadiza Bala",
+      "category": "Logistics Operations",
+      "priority": "high",
+      "status": "resolved",
+      "assignedTeam": "Logistics & Dispatch",
+      "assignedAgent": "Babatunde Adeleke",
+      "deliveryId": "DLV-83928",
+      "createdAt": "2026-10-14T10:00:00Z",
+      "updatedAt": "2026-10-14T10:45:00Z",
+      "resolvedAt": "2026-10-14T10:45:00Z",
+      "resolution": {
+        "type": "reroute_approved",
+        "summary": "Updated delivery dropoff from Lekki Phase 2 to Victoria Island at customer request before courier departure.",
+        "decision": "No additional zone surcharge required as both addresses fall within Lagos Zone 1.",
+        "resolvedBy": "Babatunde Adeleke",
+        "resolvedAt": "2026-10-14T10:45:00Z"
+      },
+      "events": [
+        {
+          "id": "EVT-014",
+          "type": "status_change",
+          "content": "Address updated and driver notified on mobile terminal.",
+          "author": "Babatunde Adeleke",
+          "authorRole": "agent",
+          "isInternal": true,
+          "createdAt": "2026-10-14T10:45:00Z"
+        }
+      ],
+      "slaStatus": "within_sla"
+    },
+    {
+      "id": "TKT-83930",
+      "title": "Cargo Transit Insurance Policy Coverage Inquiry",
+      "customerId": "RCV-10104",
+      "customerName": "Tunde Bakare",
+      "category": "General Support",
+      "priority": "low",
+      "status": "open",
+      "assignedTeam": "Customer Experience",
+      "createdAt": "2026-10-14T12:00:00Z",
+      "updatedAt": "2026-10-14T12:00:00Z",
+      "slaStatus": "within_sla",
+      "events": [
+        {
+          "id": "EVT-015",
+          "type": "customer_reply",
+          "content": "As a verified traveler carrying items up to ₦1.5m, what is the maximum coverage underwritten by Leadway Assurance on Racvest?",
+          "author": "Tunde Bakare",
+          "authorRole": "customer",
+          "isInternal": false,
+          "createdAt": "2026-10-14T12:00:00Z"
+        }
+      ]
+    }
+  ],
+  "chatConversations": [
+    {
+      "id": "CHT-49101",
+      "customerId": "RCV-83921",
+      "customerName": "Amaka Obi",
+      "deliveryId": "DLV-83921",
+      "category": "Urgent Delivery Status",
+      "status": "escalated",
+      "assignedAgent": "Emeka Nnamani",
+      "priority": "critical",
+      "lastMessage": "Traveller is now on the Kaduna-Abuja express train arriving shortly.",
+      "lastActivity": "2026-10-14T14:15:00Z",
+      "unreadCount": 0,
+      "messages": [
+        {
+          "id": "MSG-001",
+          "sender": "customer",
+          "senderName": "Amaka Obi",
+          "content": "Hi, is anyone there? My MacBook shipment is late!",
+          "timestamp": "2026-10-14T13:45:00Z",
+          "isRead": true
+        },
+        {
+          "id": "MSG-002",
+          "sender": "agent",
+          "senderName": "Emeka Nnamani",
+          "content": "Hello Amaka! Yes, I am actively tracking this with our logistics desk.",
+          "timestamp": "2026-10-14T13:48:00Z",
+          "isRead": true
+        },
+        {
+          "id": "MSG-003",
+          "sender": "agent",
+          "senderName": "Emeka Nnamani",
+          "content": "Traveller is now on the Kaduna-Abuja express train arriving shortly.",
+          "timestamp": "2026-10-14T14:15:00Z",
+          "isRead": true
+        }
+      ]
+    },
+    {
+      "id": "CHT-49102",
+      "customerId": "RCV-29842",
+      "customerName": "Olawale Johnson",
+      "deliveryId": "DLV-83931",
+      "category": "Cancellation & Refund",
+      "status": "assigned",
+      "assignedAgent": "Emeka Nnamani",
+      "priority": "normal",
+      "lastMessage": "Your refund has been approved and is queued for transfer.",
+      "lastActivity": "2026-10-14T11:00:00Z",
+      "unreadCount": 0,
+      "messages": [
+        {
+          "id": "MSG-004",
+          "sender": "customer",
+          "senderName": "Olawale Johnson",
+          "content": "Good morning, will my wallet be credited immediately for the cancelled drone shipment?",
+          "timestamp": "2026-10-14T10:40:00Z",
+          "isRead": true
+        },
+        {
+          "id": "MSG-005",
+          "sender": "agent",
+          "senderName": "Emeka Nnamani",
+          "content": "Your refund has been approved and is queued for transfer.",
+          "timestamp": "2026-10-14T11:00:00Z",
+          "isRead": true
+        }
+      ]
+    },
+    {
+      "id": "CHT-49103",
+      "customerId": "RCV-10123",
+      "customerName": "Genevieve Nnaji",
+      "deliveryId": "DLV-83926",
+      "category": "VIP Pickup Coordination",
+      "status": "open",
+      "priority": "high",
+      "lastMessage": "Can you please ensure the traveller has an enclosed vehicle?",
+      "lastActivity": "2026-10-14T13:30:00Z",
+      "unreadCount": 1,
+      "messages": [
+        {
+          "id": "MSG-006",
+          "sender": "customer",
+          "senderName": "Genevieve Nnaji",
+          "content": "Can you please ensure the traveller has an enclosed vehicle?",
+          "timestamp": "2026-10-14T13:30:00Z",
+          "isRead": false
+        }
+      ]
+    },
+    {
+      "id": "CHT-49104",
+      "customerId": "RCV-10115",
+      "customerName": "Ronke Oshodi",
+      "category": "Courier Route Support",
+      "status": "resolved",
+      "assignedAgent": "Babatunde Adeleke",
+      "priority": "normal",
+      "lastMessage": "Thank you Babatunde, bypass route around Ore clear.",
+      "lastActivity": "2026-10-13T16:20:00Z",
+      "unreadCount": 0,
+      "messages": [
+        {
+          "id": "MSG-007",
+          "sender": "customer",
+          "senderName": "Ronke Oshodi",
+          "content": "Traffic congestion on Benin-Ore expressway, checking if detour is allowed.",
+          "timestamp": "2026-10-13T16:00:00Z",
+          "isRead": true
+        },
+        {
+          "id": "MSG-008",
+          "sender": "agent",
+          "senderName": "Babatunde Adeleke",
+          "content": "Detour permitted. Please log GPS checkpoints at Ondo town.",
+          "timestamp": "2026-10-13T16:10:00Z",
+          "isRead": true
+        },
+        {
+          "id": "MSG-009",
+          "sender": "customer",
+          "senderName": "Ronke Oshodi",
+          "content": "Thank you Babatunde, bypass route around Ore clear.",
+          "timestamp": "2026-10-13T16:20:00Z",
+          "isRead": true
+        }
+      ]
+    },
+    {
+      "id": "CHT-49105",
+      "customerId": "RCV-10106",
+      "customerName": "Blessing Umeh",
+      "category": "Verification Status",
+      "status": "waiting_customer",
+      "assignedAgent": "Folake Balogun",
+      "priority": "low",
+      "lastMessage": "Your document verification has been completed successfully.",
+      "lastActivity": "2026-10-14T09:15:00Z",
+      "unreadCount": 0,
+      "messages": [
+        {
+          "id": "MSG-010",
+          "sender": "agent",
+          "senderName": "Folake Balogun",
+          "content": "Your document verification has been completed successfully.",
+          "timestamp": "2026-10-14T09:15:00Z",
+          "isRead": true
+        }
+      ]
+    }
+  ],
+  "moderationReports": [
+    {
+      "id": "RPT-10481",
+      "type": "Off-Platform Settlement & Price Gouging",
+      "reporterId": "RCV-10129",
+      "reporterName": "Zainab Ahmed",
+      "reportedUserId": "RCV-10481",
+      "reportedUserName": "Chidi Eze",
+      "deliveryId": "DLV-83930",
+      "severity": "high",
+      "status": "action_required",
+      "assignedTo": "Folake Balogun",
+      "evidence": [
+        "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500",
+        "https://images.unsplash.com/photo-1586769852044-692d6e3703f0?w=500"
+      ],
+      "description": "Traveller insisted on off-platform cash handover at Minna terminal to bypass escrow platform fee, and threatened to hold cargo if cash was not topped up.",
+      "createdAt": "2026-10-14T08:50:00Z",
+      "updatedAt": "2026-10-14T11:45:00Z",
+      "resolution": "Account temporarily suspended pending formal compliance review. Fined ₦5,000."
+    },
+    {
+      "id": "RPT-10482",
+      "type": "Prohibited Cargo Solicitation",
+      "reporterId": "RCV-10104",
+      "reporterName": "Tunde Bakare",
+      "reportedUserId": "RCV-10118",
+      "reportedUserName": "Sani Abacha",
+      "severity": "critical",
+      "status": "resolved",
+      "assignedTo": "Folake Balogun",
+      "evidence": [
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500"
+      ],
+      "description": "User requested transport of unlabelled chemical canisters containing hazardous industrial solvents without safety data sheets.",
+      "createdAt": "2026-10-08T14:20:00Z",
+      "updatedAt": "2026-10-09T11:30:00Z",
+      "resolution": "User account suspended permanently; passport document flagged as fraudulent."
+    },
+    {
+      "id": "RPT-10483",
+      "type": "Suspected Cargo Diversion",
+      "reporterId": "RCV-29842",
+      "reporterName": "Olawale Johnson",
+      "reportedUserId": "RCV-10120",
+      "reportedUserName": "Taribo West",
+      "deliveryId": "DLV-71920",
+      "severity": "critical",
+      "status": "resolved",
+      "assignedTo": "Folake Balogun",
+      "evidence": [
+        "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500"
+      ],
+      "description": "Courier broke tamper-proof seal and opened package before scheduled drop-off at Apapa.",
+      "createdAt": "2026-10-09T10:15:00Z",
+      "updatedAt": "2026-10-09T17:30:00Z",
+      "resolution": "Courier banned permanently. Case reported to Nigerian Police Force Apapa Division."
+    },
+    {
+      "id": "RPT-10484",
+      "type": "Harassment & Inappropriate Behavior",
+      "reporterId": "RCV-10110",
+      "reporterName": "Nneka Nwosu",
+      "reportedUserId": "RCV-10118",
+      "reportedUserName": "Sani Abacha",
+      "severity": "medium",
+      "status": "resolved",
+      "assignedTo": "Emeka Nnamani",
+      "evidence": [
+        "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500"
+      ],
+      "description": "Traveller received aggressive and derogatory WhatsApp voice messages regarding meetup arrival times.",
+      "createdAt": "2026-10-07T16:00:00Z",
+      "updatedAt": "2026-10-08T09:00:00Z",
+      "resolution": "Warning strike issued, user placed on 14-day communication probation prior to suspension."
+    },
+    {
+      "id": "RPT-10485",
+      "type": "Suspected Counterfeit Goods",
+      "reporterId": "RCV-10108",
+      "reporterName": "Segun Arinze",
+      "reportedUserId": "RCV-10116",
+      "reportedUserName": "Usman Mohammed",
+      "severity": "medium",
+      "status": "under_review",
+      "assignedTo": "Folake Balogun",
+      "evidence": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+      ],
+      "description": "Designer luxury handbags handed over for transport show obvious signs of trademark infringement and counterfeit labels.",
+      "createdAt": "2026-10-13T15:30:00Z",
+      "updatedAt": "2026-10-14T10:00:00Z"
+    },
+    {
+      "id": "RPT-10486",
+      "type": "Identity Impersonation",
+      "reporterId": "RCV-10107",
+      "reporterName": "Fatima Dangote",
+      "reportedUserId": "RCV-10126",
+      "reportedUserName": "Balarabe Musa",
+      "severity": "high",
+      "status": "new",
+      "evidence": [
+        "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500"
+      ],
+      "description": "Profile name and photo appear to impersonate a prominent public figure without verification credentials.",
+      "createdAt": "2026-10-14T12:15:00Z",
+      "updatedAt": "2026-10-14T12:15:00Z"
+    },
+    {
+      "id": "RPT-10487",
+      "type": "Circumventing Platform Safety",
+      "reporterId": "RCV-10119",
+      "reporterName": "Funke Akindele",
+      "reportedUserId": "RCV-10124",
+      "reportedUserName": "Chinedu Ikedieze",
+      "severity": "low",
+      "status": "escalated",
+      "assignedTo": "Folake Balogun",
+      "evidence": [
+        "https://images.unsplash.com/photo-1586769852044-692d6e3703f0?w=500"
+      ],
+      "description": "Courier posted masked phone digits in bid comment section to urge direct payment without platform protection.",
+      "createdAt": "2026-10-14T07:20:00Z",
+      "updatedAt": "2026-10-14T09:45:00Z"
+    },
+    {
+      "id": "RPT-10488",
+      "type": "Fraudulent Delivery Confirmation",
+      "reporterId": "RCV-83921",
+      "reporterName": "Amaka Obi",
+      "severity": "low",
+      "status": "dismissed",
+      "assignedTo": "Emeka Nnamani",
+      "evidence": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500"
+      ],
+      "description": "Automated notification triggered prematurely due to network glitch on mobile sync. Package is still en route with verified traveller.",
+      "createdAt": "2026-10-14T06:10:00Z",
+      "updatedAt": "2026-10-14T07:30:00Z",
+      "resolution": "Dismissed as technical synchronization delay; receiver informed."
+    }
+  ],
+  "safetyIncidents": [
+    {
+      "id": "SOS-49120",
+      "reporterId": "RCV-10104",
+      "reporterName": "Tunde Bakare",
+      "deliveryId": "DLV-83921",
+      "type": "SOS Route Diversion / Weather Alert",
+      "severity": "critical",
+      "status": "investigating",
+      "assignedTo": "Folake Balogun",
+      "description": "Aircraft diverted to Kaduna Airport due to severe thunderstorms and low visibility in Abuja airspace. High-value cargo secure in hand luggage.",
+      "evidence": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500"
+      ],
+      "timeline": [
+        {
+          "status": "new",
+          "timestamp": "2026-10-13T17:15:00Z",
+          "actor": "Tunde Bakare",
+          "note": "Triggered in-app trip status exception: flight diverted to Kaduna"
+        },
+        {
+          "status": "acknowledged",
+          "timestamp": "2026-10-13T17:25:00Z",
+          "actor": "Babatunde Adeleke",
+          "note": "Contacted traveller via satellite logistics line; verified physical safety and cargo possession"
+        },
+        {
+          "status": "investigating",
+          "timestamp": "2026-10-14T09:00:00Z",
+          "actor": "Folake Balogun",
+          "note": "Tracking NRC express train transit from Kaduna Rigasa to Abuja Idu"
+        }
+      ],
+      "createdAt": "2026-10-13T17:15:00Z",
+      "updatedAt": "2026-10-14T09:00:00Z"
+    },
+    {
+      "id": "SOS-49121",
+      "reporterId": "RCV-10115",
+      "reporterName": "Ronke Oshodi",
+      "deliveryId": "DLV-83937",
+      "type": "Highway Breakdown & Assistance",
+      "severity": "medium",
+      "status": "resolved",
+      "assignedTo": "Babatunde Adeleke",
+      "description": "Courier delivery van suffered rear tire puncture along Ore-Sagamu expressway. Armed highway patrol escort verified and tire replaced.",
+      "evidence": [
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500"
+      ],
+      "timeline": [
+        {
+          "status": "new",
+          "timestamp": "2026-10-11T11:00:00Z",
+          "actor": "Ronke Oshodi",
+          "note": "Van halted at km 42 Ore express"
+        },
+        {
+          "status": "acknowledged",
+          "timestamp": "2026-10-11T11:10:00Z",
+          "actor": "Babatunde Adeleke",
+          "note": "Dispatched Racvest rapid recovery roadside partner"
+        },
+        {
+          "status": "resolved",
+          "timestamp": "2026-10-11T12:45:00Z",
+          "actor": "Babatunde Adeleke",
+          "note": "Tire replaced, vehicle safely resumed journey"
+        }
+      ],
+      "createdAt": "2026-10-11T11:00:00Z",
+      "updatedAt": "2026-10-11T12:45:00Z",
+      "resolution": "Vehicle safely back en route; delivery completed within 3 hours of original estimate."
+    },
+    {
+      "id": "SOS-49122",
+      "reporterId": "RCV-29842",
+      "reporterName": "Olawale Johnson",
+      "deliveryId": "DLV-71920",
+      "type": "Theft & Cargo Tampering",
+      "severity": "critical",
+      "status": "closed",
+      "assignedTo": "Folake Balogun",
+      "description": "Courier opened sealed packaging of shipment and attempted diversion at Apapa port area.",
+      "evidence": [
+        "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500"
+      ],
+      "timeline": [
+        {
+          "status": "new",
+          "timestamp": "2026-10-09T10:00:00Z",
+          "actor": "Olawale Johnson",
+          "note": "Reported unauthorized seal breakage"
+        },
+        {
+          "status": "escalated",
+          "timestamp": "2026-10-09T10:30:00Z",
+          "actor": "Folake Balogun",
+          "note": "Apprehended courier at dispatch hub with assistance of local security"
+        },
+        {
+          "status": "resolved",
+          "timestamp": "2026-10-09T17:00:00Z",
+          "actor": "Folake Balogun",
+          "note": "Cargo recovered intact, returned to sender. Courier handed to police."
+        }
+      ],
+      "createdAt": "2026-10-09T10:00:00Z",
+      "updatedAt": "2026-10-09T17:00:00Z",
+      "resolution": "Courier Taribo West permanently banned and prosecuted. Insurance claim closed with zero loss."
+    }
+  ],
+  "contentItems": [
+    {
+      "id": "CNT-001",
+      "type": "banner",
+      "title": "Rainy Season Transit Advisory",
+      "content": "Interstate travellers and couriers along South-West and South-South corridors are advised to use moisture-proof cargo encasings.",
+      "status": "published",
+      "author": "Chioma Okonjo",
+      "createdAt": "2026-10-01T08:00:00Z",
+      "updatedAt": "2026-10-01T08:00:00Z",
+      "publishedAt": "2026-10-01T08:30:00Z"
+    },
+    {
+      "id": "CNT-002",
+      "type": "announcement",
+      "title": "Reduced 10% Traveller Platform Commission Promo",
+      "content": "We have lowered platform commissions to a flat 10% on all interstate courier trips scheduled throughout October 2026.",
+      "status": "published",
+      "author": "Damilola Ojo",
+      "createdAt": "2026-10-01T09:00:00Z",
+      "updatedAt": "2026-10-01T09:00:00Z",
+      "publishedAt": "2026-10-01T09:15:00Z"
+    },
+    {
+      "id": "CNT-003",
+      "type": "faq",
+      "title": "How does Racvest Escrow protect senders and travellers?",
+      "content": "When a match is agreed, sender funds are held securely in Nigerian bank escrow until the recipient physically inspects the cargo and verifies their one-time release PIN.",
+      "status": "published",
+      "author": "Emeka Nnamani",
+      "createdAt": "2026-08-15T10:00:00Z",
+      "updatedAt": "2026-10-05T14:00:00Z",
+      "publishedAt": "2026-08-15T11:00:00Z"
+    },
+    {
+      "id": "CNT-004",
+      "type": "terms",
+      "title": "Prohibited Cargo and Hazardous Items Policy 2026",
+      "content": "Racvest strictly prohibits arms, ammunition, perishable unpreserved animal produce, illicit narcotics, uncertified bulk chemicals, and undeclared cash exceeding CBN statutory thresholds.",
+      "status": "published",
+      "author": "Folake Balogun",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "updatedAt": "2026-09-20T10:00:00Z",
+      "publishedAt": "2026-01-10T09:00:00Z"
+    },
+    {
+      "id": "CNT-005",
+      "type": "help",
+      "title": "What should I do if my flight is diverted or delayed?",
+      "content": "Immediately trigger the \"Delay / Diversion\" alert from your active trip dashboard. This pauses delivery SLA timers and alerts our 24/7 Operations Command desk.",
+      "status": "draft",
+      "author": "Babatunde Adeleke",
+      "createdAt": "2026-10-12T14:00:00Z",
+      "updatedAt": "2026-10-14T09:30:00Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ADM-001",
+      "firstName": "Chioma",
+      "lastName": "Okonjo",
+      "email": "chioma.okonjo@racvest.com",
+      "role": "super_admin",
+      "department": "Executive Management",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "lastLogin": "2026-10-14T14:32:00Z",
+      "lastActivity": "2026-10-14T14:45:10Z",
+      "createdAt": "2026-01-01T08:00:00Z",
+      "permissions": [
+        "system.all",
+        "users.view",
+        "users.create",
+        "users.edit",
+        "users.suspend",
+        "users.ban",
+        "users.verify",
+        "users.delete",
+        "deliveries.view",
+        "deliveries.create",
+        "deliveries.manage",
+        "deliveries.cancel",
+        "deliveries.reassign",
+        "deliveries.override_status",
+        "finance.view",
+        "finance.refund_review",
+        "finance.refund_approve",
+        "finance.payout_approve",
+        "finance.payout_execute",
+        "finance.reconcile",
+        "finance.export",
+        "support.view",
+        "support.reply",
+        "support.assign",
+        "support.escalate",
+        "support.resolve",
+        "support.reopen",
+        "safety.view",
+        "safety.investigate",
+        "safety.take_action",
+        "safety.manage_sos",
+        "moderation.review",
+        "moderation.resolve",
+        "content.view",
+        "content.create",
+        "content.edit",
+        "content.publish",
+        "content.delete",
+        "admins.view",
+        "admins.invite",
+        "admins.edit",
+        "admins.roles",
+        "settings.view",
+        "settings.edit",
+        "integrations.manage",
+        "audit.view"
+      ]
+    },
+    {
+      "id": "ADM-002",
+      "firstName": "Babatunde",
+      "lastName": "Adeleke",
+      "email": "babatunde.adeleke@racvest.com",
+      "role": "operations",
+      "department": "Logistics & Dispatch",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "lastLogin": "2026-10-14T13:10:00Z",
+      "lastActivity": "2026-10-14T14:38:22Z",
+      "createdAt": "2026-02-15T09:00:00Z",
+      "invitedBy": "ADM-001",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "deliveries.manage",
+        "deliveries.cancel",
+        "deliveries.reassign",
+        "deliveries.override_status",
+        "support.view",
+        "support.reply",
+        "support.escalate",
+        "safety.view",
+        "safety.manage_sos",
+        "audit.view"
+      ]
+    },
+    {
+      "id": "ADM-003",
+      "firstName": "Zainab",
+      "lastName": "Musa",
+      "email": "zainab.musa@racvest.com",
+      "role": "finance",
+      "department": "Finance & Treasury",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150",
+      "lastLogin": "2026-10-14T11:24:00Z",
+      "lastActivity": "2026-10-14T14:15:40Z",
+      "createdAt": "2026-03-01T10:00:00Z",
+      "invitedBy": "ADM-001",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "finance.view",
+        "finance.refund_review",
+        "finance.refund_approve",
+        "finance.payout_approve",
+        "finance.payout_execute",
+        "finance.reconcile",
+        "finance.export",
+        "audit.view"
+      ]
+    },
+    {
+      "id": "ADM-004",
+      "firstName": "Emeka",
+      "lastName": "Nnamani",
+      "email": "emeka.nnamani@racvest.com",
+      "role": "customer_support",
+      "department": "Customer Experience",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "lastLogin": "2026-10-14T12:05:00Z",
+      "lastActivity": "2026-10-14T14:41:00Z",
+      "createdAt": "2026-03-15T11:30:00Z",
+      "invitedBy": "ADM-001",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "support.view",
+        "support.reply",
+        "support.assign",
+        "support.escalate",
+        "support.resolve",
+        "support.reopen",
+        "safety.view",
+        "audit.view"
+      ]
+    },
+    {
+      "id": "ADM-005",
+      "firstName": "Folake",
+      "lastName": "Balogun",
+      "email": "folake.balogun@racvest.com",
+      "role": "trust_safety",
+      "department": "Trust & Safety",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "lastLogin": "2026-10-14T13:50:00Z",
+      "lastActivity": "2026-10-14T14:42:15Z",
+      "createdAt": "2026-04-01T08:45:00Z",
+      "invitedBy": "ADM-001",
+      "permissions": [
+        "users.view",
+        "users.edit",
+        "users.suspend",
+        "users.ban",
+        "users.verify",
+        "deliveries.view",
+        "deliveries.cancel",
+        "safety.view",
+        "safety.investigate",
+        "safety.take_action",
+        "safety.manage_sos",
+        "moderation.review",
+        "moderation.resolve",
+        "audit.view"
+      ]
+    },
+    {
+      "id": "ADM-006",
+      "firstName": "Damilola",
+      "lastName": "Ojo",
+      "email": "damilola.ojo@racvest.com",
+      "role": "analyst",
+      "department": "Strategy & Data Intelligence",
+      "status": "active",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "lastLogin": "2026-10-14T09:12:00Z",
+      "lastActivity": "2026-10-14T12:30:00Z",
+      "createdAt": "2026-05-10T14:20:00Z",
+      "invitedBy": "ADM-001",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "finance.view",
+        "finance.export",
+        "support.view",
+        "safety.view",
+        "content.view",
+        "audit.view"
+      ]
+    }
+  ],
+  "adminInvitations": [
+    {
+      "id": "INV-001",
+      "email": "khalid.umar@racvest.com",
+      "firstName": "Khalid",
+      "lastName": "Umar",
+      "department": "Operations & Logistics",
+      "role": "operations",
+      "status": "pending",
+      "invitedBy": "ADM-001",
+      "invitedByName": "Chioma Okonjo",
+      "invitedAt": "2026-10-12T10:00:00Z",
+      "expiresAt": "2026-10-19T10:00:00Z"
+    },
+    {
+      "id": "INV-002",
+      "email": "simi.adeyemi@racvest.com",
+      "firstName": "Simisola",
+      "lastName": "Adeyemi",
+      "department": "Customer Experience",
+      "role": "customer_support",
+      "status": "pending",
+      "invitedBy": "ADM-004",
+      "invitedByName": "Emeka Nnamani",
+      "invitedAt": "2026-10-13T14:30:00Z",
+      "expiresAt": "2026-10-20T14:30:00Z"
+    },
+    {
+      "id": "INV-003",
+      "email": "tare.ebiere@racvest.com",
+      "firstName": "Tare",
+      "lastName": "Ebiere",
+      "department": "Finance & Treasury",
+      "role": "finance",
+      "status": "expired",
+      "invitedBy": "ADM-003",
+      "invitedByName": "Zainab Musa",
+      "invitedAt": "2026-09-25T08:15:00Z",
+      "expiresAt": "2026-10-02T08:15:00Z"
+    }
+  ],
+  "roleConfigs": [
+    {
+      "name": "super_admin",
+      "label": "Super Admin",
+      "description": "Full system access across all departments and configuration settings.",
+      "permissions": [
+        "system.all",
+        "users.view",
+        "users.create",
+        "users.edit",
+        "users.suspend",
+        "users.ban",
+        "users.verify",
+        "users.delete",
+        "deliveries.view",
+        "deliveries.create",
+        "deliveries.manage",
+        "deliveries.cancel",
+        "deliveries.reassign",
+        "deliveries.override_status",
+        "finance.view",
+        "finance.refund_review",
+        "finance.refund_approve",
+        "finance.payout_approve",
+        "finance.payout_execute",
+        "finance.reconcile",
+        "finance.export",
+        "support.view",
+        "support.reply",
+        "support.assign",
+        "support.escalate",
+        "support.resolve",
+        "support.reopen",
+        "safety.view",
+        "safety.investigate",
+        "safety.take_action",
+        "safety.manage_sos",
+        "moderation.review",
+        "moderation.resolve",
+        "content.view",
+        "content.create",
+        "content.edit",
+        "content.publish",
+        "content.delete",
+        "admins.view",
+        "admins.invite",
+        "admins.edit",
+        "admins.roles",
+        "settings.view",
+        "settings.edit",
+        "integrations.manage",
+        "audit.view"
+      ],
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-10-01T10:00:00Z"
+    },
+    {
+      "name": "operations",
+      "label": "Operations Manager",
+      "description": "Manage deliveries, matching, dispatch, logistics exceptions, and courier operations.",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "deliveries.manage",
+        "deliveries.cancel",
+        "deliveries.reassign",
+        "deliveries.override_status",
+        "support.view",
+        "support.reply",
+        "support.escalate",
+        "safety.view",
+        "safety.manage_sos",
+        "audit.view"
+      ],
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-09-15T12:00:00Z"
+    },
+    {
+      "name": "finance",
+      "label": "Finance Specialist",
+      "description": "Oversee escrow funds, process payouts, review refunds, and export financial audit ledgers.",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "finance.view",
+        "finance.refund_review",
+        "finance.refund_approve",
+        "finance.payout_approve",
+        "finance.payout_execute",
+        "finance.reconcile",
+        "finance.export",
+        "audit.view"
+      ],
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-08-20T14:30:00Z"
+    },
+    {
+      "name": "customer_support",
+      "label": "Customer Support Lead",
+      "description": "Handle customer disputes, manage tickets, respond to live chats, and resolve user inquiries.",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "support.view",
+        "support.reply",
+        "support.assign",
+        "support.escalate",
+        "support.resolve",
+        "support.reopen",
+        "safety.view",
+        "audit.view"
+      ],
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-09-01T09:15:00Z"
+    },
+    {
+      "name": "trust_safety",
+      "label": "Trust & Safety Officer",
+      "description": "Identity verification, fraud detection, account suspension, moderation reports, and SOS alerts.",
+      "permissions": [
+        "users.view",
+        "users.edit",
+        "users.suspend",
+        "users.ban",
+        "users.verify",
+        "deliveries.view",
+        "deliveries.cancel",
+        "safety.view",
+        "safety.investigate",
+        "safety.take_action",
+        "safety.manage_sos",
+        "moderation.review",
+        "moderation.resolve",
+        "audit.view"
+      ],
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-09-10T11:45:00Z"
+    },
+    {
+      "name": "analyst",
+      "label": "Business Analyst",
+      "description": "Read-only access to operational, financial, and user intelligence reports.",
+      "permissions": [
+        "users.view",
+        "deliveries.view",
+        "finance.view",
+        "finance.export",
+        "support.view",
+        "safety.view",
+        "content.view",
+        "audit.view"
+      ],
+      "createdAt": "2026-01-01T08:00:00Z",
+      "updatedAt": "2026-07-12T16:00:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-001",
+      "adminId": "ADM-001",
+      "adminName": "Chioma Okonjo",
+      "action": "admin.login",
+      "targetType": "Admin",
+      "targetId": "ADM-001",
+      "timestamp": "2026-10-14T14:32:00Z",
+      "ipAddress": "102.89.23.114",
+      "reason": "Standard 2FA biometric login via web portal"
+    },
+    {
+      "id": "AUD-002",
+      "adminId": "ADM-005",
+      "adminName": "Folake Balogun",
+      "action": "user.suspend",
+      "targetType": "User",
+      "targetId": "RCV-10481",
+      "timestamp": "2026-10-14T11:45:00Z",
+      "previousValue": {
+        "accountStatus": "active",
+        "riskLevel": "safe"
+      },
+      "newValue": {
+        "accountStatus": "suspended",
+        "riskLevel": "flag"
+      },
+      "reason": "Enforced suspension following RPT-10481 off-platform extortion investigation",
+      "ipAddress": "102.89.44.12"
+    },
+    {
+      "id": "AUD-003",
+      "adminId": "ADM-003",
+      "adminName": "Zainab Musa",
+      "action": "refund.approve",
+      "targetType": "Refund",
+      "targetId": "RFD-10293",
+      "timestamp": "2026-10-14T10:45:00Z",
+      "previousValue": {
+        "status": "requested"
+      },
+      "newValue": {
+        "status": "approved"
+      },
+      "reason": "Verified sender cancellation prior to courier pickup on DLV-83931",
+      "ipAddress": "102.89.33.88"
+    },
+    {
+      "id": "AUD-004",
+      "adminId": "ADM-002",
+      "adminName": "Babatunde Adeleke",
+      "action": "delivery.reroute",
+      "targetType": "Delivery",
+      "targetId": "DLV-83928",
+      "timestamp": "2026-10-14T10:45:00Z",
+      "previousValue": {
+        "destination": "Lekki Phase 2, Lagos"
+      },
+      "newValue": {
+        "destination": "Victoria Island, Lagos"
+      },
+      "reason": "Customer emergency drop-off location update TKT-83929",
+      "ipAddress": "105.112.98.4"
+    },
+    {
+      "id": "AUD-005",
+      "adminId": "ADM-004",
+      "adminName": "Emeka Nnamani",
+      "action": "ticket.escalate",
+      "targetType": "SupportTicket",
+      "targetId": "TKT-83921",
+      "timestamp": "2026-10-14T09:30:00Z",
+      "previousValue": {
+        "priority": "high",
+        "status": "in_progress"
+      },
+      "newValue": {
+        "priority": "critical",
+        "status": "escalated"
+      },
+      "reason": "Delayed high-value MacBook shipment reaching SLA breach threshold",
+      "ipAddress": "105.112.55.20"
+    },
+    {
+      "id": "AUD-006",
+      "adminId": "ADM-005",
+      "adminName": "Folake Balogun",
+      "action": "user.verify_approve",
+      "targetType": "UserVerification",
+      "targetId": "VRF-004",
+      "timestamp": "2026-02-10T12:15:00Z",
+      "previousValue": {
+        "status": "pending"
+      },
+      "newValue": {
+        "status": "verified"
+      },
+      "reason": "NIMC NIN facial biometric match confirmed 99.4%",
+      "ipAddress": "102.89.44.12"
+    },
+    {
+      "id": "AUD-007",
+      "adminId": "ADM-005",
+      "adminName": "Folake Balogun",
+      "action": "user.verify_reject",
+      "targetType": "UserVerification",
+      "targetId": "VRF-003",
+      "timestamp": "2026-10-09T11:20:00Z",
+      "previousValue": {
+        "status": "pending"
+      },
+      "newValue": {
+        "status": "rejected"
+      },
+      "reason": "Biometric mismatch with live portrait scan",
+      "ipAddress": "102.89.44.12"
+    },
+    {
+      "id": "AUD-008",
+      "adminId": "ADM-003",
+      "adminName": "Zainab Musa",
+      "action": "payout.execute",
+      "targetType": "Payout",
+      "targetId": "PAY-48191",
+      "timestamp": "2026-10-12T14:32:00Z",
+      "previousValue": {
+        "status": "approved"
+      },
+      "newValue": {
+        "status": "succeeded"
+      },
+      "reason": "Settled ₦18,000.00 to Segun Arinze via Paystack Transfer API",
+      "ipAddress": "102.89.33.88"
+    },
+    {
+      "id": "AUD-009",
+      "adminId": "ADM-005",
+      "adminName": "Folake Balogun",
+      "action": "user.ban",
+      "targetType": "User",
+      "targetId": "RCV-10120",
+      "timestamp": "2026-10-09T17:30:00Z",
+      "previousValue": {
+        "accountStatus": "active",
+        "riskLevel": "safe"
+      },
+      "newValue": {
+        "accountStatus": "banned",
+        "riskLevel": "danger"
+      },
+      "reason": "Cargo theft and tampering confirmed in incident SOS-49122",
+      "ipAddress": "102.89.44.12"
+    },
+    {
+      "id": "AUD-010",
+      "adminId": "ADM-001",
+      "adminName": "Chioma Okonjo",
+      "action": "admin.invite",
+      "targetType": "AdminInvitation",
+      "targetId": "INV-001",
+      "timestamp": "2026-10-12T10:00:00Z",
+      "newValue": {
+        "email": "khalid.umar@racvest.com",
+        "role": "operations"
+      },
+      "reason": "Expansion of northern Nigeria dispatch coordination team",
+      "ipAddress": "102.89.23.114"
+    },
+    {
+      "id": "AUD-011",
+      "adminId": "ADM-002",
+      "adminName": "Babatunde Adeleke",
+      "action": "delivery.override_status",
+      "targetType": "Delivery",
+      "targetId": "DLV-83921",
+      "timestamp": "2026-10-13T17:30:00Z",
+      "previousValue": {
+        "isDelayed": false
+      },
+      "newValue": {
+        "isDelayed": true
+      },
+      "reason": "Flagged flight diversion to Kaduna due to extreme weather",
+      "ipAddress": "105.112.98.4"
+    },
+    {
+      "id": "AUD-012",
+      "adminId": "ADM-003",
+      "adminName": "Zainab Musa",
+      "action": "finance.reconcile",
+      "targetType": "TreasuryBatch",
+      "targetId": "BAT-2026-10-13",
+      "timestamp": "2026-10-13T23:59:00Z",
+      "reason": "Daily escrow ledger balance reconciled: ₦142,850,000 matched Paystack balance",
+      "ipAddress": "102.89.33.88"
+    },
+    {
+      "id": "AUD-013",
+      "adminId": "ADM-004",
+      "adminName": "Emeka Nnamani",
+      "action": "ticket.resolve",
+      "targetType": "SupportTicket",
+      "targetId": "TKT-83925",
+      "timestamp": "2026-10-11T16:35:00Z",
+      "previousValue": {
+        "status": "in_progress"
+      },
+      "newValue": {
+        "status": "resolved"
+      },
+      "reason": "Completed wallet refund after confirmed return of goods",
+      "ipAddress": "105.112.55.20"
+    },
+    {
+      "id": "AUD-014",
+      "adminId": "ADM-006",
+      "adminName": "Damilola Ojo",
+      "action": "report.export",
+      "targetType": "AnalyticsExport",
+      "targetId": "EXP-99201",
+      "timestamp": "2026-10-14T09:12:00Z",
+      "reason": "Exported Q3 2026 delivery volume and corridor density CSV",
+      "ipAddress": "197.210.65.18"
+    },
+    {
+      "id": "AUD-015",
+      "adminId": "ADM-001",
+      "adminName": "Chioma Okonjo",
+      "action": "settings.update",
+      "targetType": "SystemSetting",
+      "targetId": "commission_rate_traveller",
+      "timestamp": "2026-10-01T10:00:00Z",
+      "previousValue": {
+        "value": "12%"
+      },
+      "newValue": {
+        "value": "10%"
+      },
+      "reason": "Platform promotional campaign to attract interstate travellers",
+      "ipAddress": "102.89.23.114"
+    },
+    {
+      "id": "AUD-016",
+      "adminId": "ADM-005",
+      "adminName": "Folake Balogun",
+      "action": "incident.acknowledge",
+      "targetType": "SafetyIncident",
+      "targetId": "SOS-49120",
+      "timestamp": "2026-10-13T17:25:00Z",
+      "previousValue": {
+        "status": "new"
+      },
+      "newValue": {
+        "status": "acknowledged"
+      },
+      "reason": "Direct contact established with traveller Tunde Bakare",
+      "ipAddress": "102.89.44.12"
+    },
+    {
+      "id": "AUD-017",
+      "adminId": "ADM-003",
+      "adminName": "Zainab Musa",
+      "action": "refund.execute",
+      "targetType": "Refund",
+      "targetId": "RFD-10291",
+      "timestamp": "2026-10-10T11:18:20Z",
+      "previousValue": {
+        "status": "approved"
+      },
+      "newValue": {
+        "status": "succeeded"
+      },
+      "reason": "Executed ₦19,000 refund back to Maryam Booth card",
+      "ipAddress": "102.89.33.88"
+    },
+    {
+      "id": "AUD-018",
+      "adminId": "ADM-004",
+      "adminName": "Emeka Nnamani",
+      "action": "chat.assign",
+      "targetType": "ChatConversation",
+      "targetId": "CHT-49101",
+      "timestamp": "2026-10-14T13:46:00Z",
+      "previousValue": {},
+      "newValue": {
+        "assignedAgent": "Emeka Nnamani"
+      },
+      "reason": "Picked up priority chat from customer Amaka Obi",
+      "ipAddress": "105.112.55.20"
+    },
+    {
+      "id": "AUD-019",
+      "adminId": "ADM-002",
+      "adminName": "Babatunde Adeleke",
+      "action": "courier.route_approve",
+      "targetType": "Delivery",
+      "targetId": "DLV-83937",
+      "timestamp": "2026-10-13T16:10:00Z",
+      "reason": "Approved Ondo bypass detour due to Ore expressway gridlock",
+      "ipAddress": "105.112.98.4"
+    },
+    {
+      "id": "AUD-020",
+      "adminId": "ADM-001",
+      "adminName": "Chioma Okonjo",
+      "action": "system.healthcheck",
+      "targetType": "System",
+      "targetId": "core-infra",
+      "timestamp": "2026-10-14T14:40:00Z",
+      "reason": "Quarterly compliance and security sanity check passed",
+      "ipAddress": "102.89.23.114"
+    }
+  ],
+  "systemSettings": [
+    {
+      "key": "platform_fee_traveller_pct",
+      "value": 10,
+      "category": "Fees & Commission",
+      "description": "Platform commission deducted from gross traveller earnings (percentage)",
+      "updatedBy": "Chioma Okonjo",
+      "updatedAt": "2026-10-01T10:00:00Z"
+    },
+    {
+      "key": "platform_fee_courier_pct",
+      "value": 10,
+      "category": "Fees & Commission",
+      "description": "Platform commission deducted from licensed courier partner earnings (percentage)",
+      "updatedBy": "Chioma Okonjo",
+      "updatedAt": "2026-10-01T10:00:00Z"
+    },
+    {
+      "key": "escrow_auto_release_hours",
+      "value": 48,
+      "category": "Escrow & Payouts",
+      "description": "Hours after delivery scan before escrow automatically releases if receiver raises no dispute",
+      "updatedBy": "Zainab Musa",
+      "updatedAt": "2026-08-10T11:00:00Z"
+    },
+    {
+      "key": "max_unverified_declared_value_kobo",
+      "value": 5000000,
+      "category": "Verification & KYC",
+      "description": "Maximum item declared value permitted for unverified (Tier 0) sender accounts",
+      "updatedBy": "Folake Balogun",
+      "updatedAt": "2026-09-01T09:30:00Z"
+    },
+    {
+      "key": "max_verified_declared_value_kobo",
+      "value": 200000000,
+      "category": "Verification & KYC",
+      "description": "Maximum cargo declared value for Tier 1 verified accounts",
+      "updatedBy": "Folake Balogun",
+      "updatedAt": "2026-09-01T09:30:00Z"
+    },
+    {
+      "key": "cancellation_free_window_mins",
+      "value": 120,
+      "category": "Cancellations & Refunds",
+      "description": "Free cancellation window in minutes after bid acceptance if provider has not dispatched",
+      "updatedBy": "Babatunde Adeleke",
+      "updatedAt": "2026-07-15T14:00:00Z"
+    },
+    {
+      "key": "sos_emergency_hotline",
+      "value": "+234 800 RACVEST SOS",
+      "category": "Trust & Safety",
+      "description": "Toll-free 24/7 emergency dispatch voice hotline displayed across mobile apps",
+      "updatedBy": "Folake Balogun",
+      "updatedAt": "2026-06-01T08:00:00Z"
+    }
+  ],
+  "integrationConfigs": [
+    {
+      "id": "INT-PAYSTACK",
+      "name": "Paystack Payment Gateway",
+      "type": "payment",
+      "status": "connected",
+      "lastSuccessAt": "2026-10-14T14:30:00Z",
+      "configuredAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "INT-FLUTTERWAVE",
+      "name": "Flutterwave Alternative Switch",
+      "type": "payment",
+      "status": "connected",
+      "lastSuccessAt": "2026-10-14T11:45:00Z",
+      "configuredAt": "2026-02-15T10:00:00Z"
+    },
+    {
+      "id": "INT-DOJAH",
+      "name": "Dojah Identity & KYC (NIMC/BVN)",
+      "type": "identity",
+      "status": "connected",
+      "lastSuccessAt": "2026-10-14T12:15:00Z",
+      "configuredAt": "2026-03-01T12:00:00Z"
+    },
+    {
+      "id": "INT-TERMII",
+      "name": "Termii SMS Gateway (Nigeria DND Bypassed)",
+      "type": "sms",
+      "status": "connected",
+      "lastSuccessAt": "2026-10-14T14:20:00Z",
+      "configuredAt": "2026-01-15T09:00:00Z"
+    },
+    {
+      "id": "INT-SENDGRID",
+      "name": "SendGrid Transactional Email",
+      "type": "email",
+      "status": "connected",
+      "lastSuccessAt": "2026-10-14T14:10:00Z",
+      "configuredAt": "2026-01-05T11:00:00Z"
+    },
+    {
+      "id": "INT-GOOGLE-MAPS",
+      "name": "Google Maps Routing & Geocoding API",
+      "type": "maps",
+      "status": "connected",
+      "lastSuccessAt": "2026-10-14T14:40:00Z",
+      "configuredAt": "2026-01-10T14:00:00Z"
+    },
+    {
+      "id": "INT-ONESIGNAL",
+      "name": "OneSignal Push Notifications",
+      "type": "push",
+      "status": "not_configured"
+    }
+  ],
+  "notificationTemplates": [
+    {
+      "id": "TMPL-001",
+      "name": "Delivery Offer Accepted",
+      "event": "delivery.offer_accepted",
+      "channel": "sms",
+      "body": "Hi {{firstName}}, your offer of ₦{{amount}} for shipment {{deliveryId}} has been accepted! Open Racvest to view pickup details.",
+      "variables": [
+        "firstName",
+        "amount",
+        "deliveryId"
+      ],
+      "status": "active",
+      "updatedAt": "2026-09-01T10:00:00Z"
+    },
+    {
+      "id": "TMPL-002",
+      "name": "Escrow Payment Locked",
+      "event": "payment.escrow_locked",
+      "channel": "email",
+      "subject": "Escrow Confirmed: ₦{{amount}} secured for {{deliveryId}}",
+      "body": "<p>Hello {{firstName}},</p><p>We have successfully held ₦{{amount}} in escrow for delivery {{deliveryId}} ({{route}}). Your funds are 100% secure.</p>",
+      "variables": [
+        "firstName",
+        "amount",
+        "deliveryId",
+        "route"
+      ],
+      "status": "active",
+      "updatedAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "TMPL-003",
+      "name": "Delivery PIN Verification",
+      "event": "delivery.arrival_confirmation",
+      "channel": "sms",
+      "body": "Racvest Delivery Code: {{pin}}. Provide this 4-digit code to traveller {{travellerName}} ONLY AFTER confirming package condition.",
+      "variables": [
+        "pin",
+        "travellerName"
+      ],
+      "status": "active",
+      "updatedAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "TMPL-004",
+      "name": "Delayed Transit Notice",
+      "event": "delivery.delayed",
+      "channel": "push",
+      "subject": "Delivery Update for {{deliveryId}}",
+      "body": "Your shipment {{deliveryId}} is experiencing transit delay: {{reason}}. Our logistics desk is monitoring closely.",
+      "variables": [
+        "deliveryId",
+        "reason"
+      ],
+      "status": "active",
+      "updatedAt": "2026-10-05T09:00:00Z"
+    }
+  ]
+}

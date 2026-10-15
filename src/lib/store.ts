@@ -34,6 +34,7 @@ import { transactions as initialTransactions, refunds as initialRefunds, payouts
 import { supportTickets as initialTickets, chatConversations as initialChats } from './data/support';
 import { moderationReports as initialReports, safetyIncidents as initialIncidents, auditLogs as initialAuditLogs } from './data/moderation';
 import { contentItems as initialContent, systemSettings as initialSettings, integrationConfigs as initialIntegrations, notificationTemplates as initialTemplates } from './data/system';
+import { syncApi } from './api-sync';
 
 export interface ToastMessage {
   id: string;
@@ -183,6 +184,10 @@ interface AppStore {
   updateSetting: (key: string, value: string | number | boolean) => void;
   testIntegration: (id: string) => { success: boolean; message: string };
   updateNotificationTemplate: (id: string, updates: Partial<NotificationTemplate>) => void;
+
+  // Backend Database Synchronization
+  isHydrated: boolean;
+  initFromApi: () => Promise<void>;
 }
 
 const initialSessions: AdminSession[] = [
@@ -216,6 +221,43 @@ const initialSessions: AdminSession[] = [
 ];
 
 export const useAppStore = create<AppStore>((set, get) => ({
+  isHydrated: false,
+  initFromApi: async () => {
+    try {
+      const res = await fetch('/api/bootstrap');
+      if (!res.ok) return;
+      const json = await res.json();
+      if (json.success && json.data) {
+        set({
+          isHydrated: true,
+          users: json.data.users,
+          userVerifications: json.data.userVerifications,
+          deliveries: json.data.deliveries,
+          tripDeclarations: json.data.trips,
+          offers: json.data.offers,
+          matches: json.data.matches,
+          transactions: json.data.transactions,
+          refunds: json.data.refunds,
+          payouts: json.data.payouts,
+          supportTickets: json.data.supportTickets,
+          chatConversations: json.data.chatConversations,
+          moderationReports: json.data.moderationReports,
+          safetyIncidents: json.data.safetyIncidents,
+          contentItems: json.data.contentItems,
+          admins: json.data.admins,
+          adminInvitations: json.data.adminInvitations,
+          roleConfigs: json.data.roleConfigs,
+          auditLogs: json.data.auditLogs,
+          systemSettings: json.data.systemSettings,
+          integrationConfigs: json.data.integrationConfigs,
+          notificationTemplates: json.data.notificationTemplates,
+        });
+      }
+    } catch (err) {
+      console.warn('Backend database API offline, keeping local store state:', err);
+    }
+  },
+
   currentAdmin: initialAdmins[0], // Chioma Okonjo (Super Admin)
   activeSessions: initialSessions,
   toasts: [],
@@ -346,6 +388,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Verification Approved',
       message: `User ${updatedUserId} verification has been verified and badge issued.`,
     });
+
+    syncApi(`/api/verifications/${verificationId}`, 'PATCH', {
+      action: 'approve',
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+    });
   },
 
   rejectVerification: (verificationId, reason) => {
@@ -396,6 +444,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Verification Rejected',
       message: `Verification ${verificationId} rejected. Reason logged for user notification.`,
     });
+
+    syncApi(`/api/verifications/${verificationId}`, 'PATCH', {
+      action: 'reject',
+      reason,
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+    });
   },
 
   suspendUser: (userId, reason, days = 7) => {
@@ -435,6 +490,14 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'warning',
       title: 'Account Suspended',
       message: `User ${userId} has been suspended for ${days} days. Active bids paused.`,
+    });
+
+    syncApi(`/api/users/${userId}`, 'PATCH', {
+      action: 'suspend',
+      reason,
+      days,
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
     });
   },
 
@@ -476,6 +539,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Account Permanently Banned',
       message: `User ${userId} has been permanently banned from the marketplace.`,
     });
+
+    syncApi(`/api/users/${userId}`, 'PATCH', {
+      action: 'ban',
+      reason,
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+    });
   },
 
   restoreUser: (userId) => {
@@ -512,6 +582,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Account Restored',
       message: `User ${userId} status restored to active.`,
+    });
+
+    syncApi(`/api/users/${userId}`, 'PATCH', {
+      action: 'restore',
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
     });
   },
 
@@ -566,6 +642,14 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Delivery Status Updated',
       message: `Delivery ${deliveryId} is now marked as ${newStatus.replace('_', ' ').toUpperCase()}.`,
+    });
+
+    syncApi(`/api/deliveries/${deliveryId}`, 'PATCH', {
+      action: 'update_status',
+      status: newStatus,
+      note,
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
     });
   },
 
@@ -741,6 +825,15 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Delivery Reassigned',
       message: `Delivery ${deliveryId} successfully reassigned to ${providerName}.`,
     });
+
+    syncApi(`/api/deliveries/${deliveryId}`, 'PATCH', {
+      action: 'reassign',
+      providerId,
+      providerName,
+      mode,
+      adminId: currentAdmin.id,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+    });
   },
 
   // Marketplace Offers
@@ -755,6 +848,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Offer Accepted',
       message: `Offer ${offerId} from ${offer.travellerName} marked as accepted.`,
     });
+
+    syncApi('/api/bids-matches', 'POST', {
+      action: 'accept_offer',
+      offerId,
+      adminId: get().currentAdmin.id,
+      adminName: `${get().currentAdmin.firstName} ${get().currentAdmin.lastName}`,
+    });
   },
 
   rejectOffer: (offerId) => {
@@ -766,6 +866,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Offer Rejected',
       message: `Offer ${offerId} marked as rejected.`,
     });
+
+    syncApi('/api/bids-matches', 'POST', {
+      action: 'reject_offer',
+      offerId,
+      adminId: get().currentAdmin.id,
+      adminName: `${get().currentAdmin.firstName} ${get().currentAdmin.lastName}`,
+    });
   },
 
   boostRequest: (requestId) => {
@@ -773,6 +880,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Visibility Boosted',
       message: `Request ${requestId} priority bumped. Push broadcast dispatched to available travellers in corridor.`,
+    });
+
+    syncApi('/api/bids-matches', 'POST', {
+      action: 'boost_request',
+      deliveryId: requestId,
+      adminId: get().currentAdmin.id,
+      adminName: `${get().currentAdmin.firstName} ${get().currentAdmin.lastName}`,
     });
   },
 
@@ -830,6 +944,14 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Refund Approved',
       message: `Refund ${refundId} approved. Ready for execution via payment gateway.`,
     });
+
+    syncApi(`/api/payments/refunds/${refundId}`, 'PATCH', {
+      action: 'approve',
+      reason,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
+
     return true;
   },
 
@@ -903,6 +1025,14 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Refund Executed Successfully',
       message: `Gateway confirmed refund ${refundId}. Ref: ${providerRef}`,
     });
+
+    syncApi(`/api/payments/refunds/${refundId}`, 'PATCH', {
+      action: 'execute',
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+      role: currentAdmin.role,
+    });
+
     return { success: true, message: 'Refund executed successfully' };
   },
 
@@ -945,6 +1075,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Refund Request Rejected',
       message: `Refund ${refundId} marked as rejected. Reason: ${reason}`,
     });
+
+    syncApi(`/api/payments/refunds/${refundId}`, 'PATCH', {
+      action: 'reject',
+      reason,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
   },
 
   approvePayout: (payoutId, reason) => {
@@ -985,6 +1122,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Payout Approved',
       message: `Payout ${payoutId} approved for disbursement.`,
+    });
+
+    syncApi(`/api/payments/payouts/${payoutId}`, 'PATCH', {
+      action: 'approve',
+      reason,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
     });
   },
 
@@ -1056,6 +1200,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Payout Disbursed',
       message: `Bank transfer initiated for ${payoutId}. Ref: ${providerRef}`,
     });
+
+    syncApi(`/api/payments/payouts/${payoutId}`, 'PATCH', {
+      action: 'execute',
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
+
     return { success: true, message: 'Payout executed' };
   },
 
@@ -1092,6 +1243,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Payout Rejected',
       message: `Payout ${payoutId} has been rejected. Reason: ${reason}`,
     });
+
+    syncApi(`/api/payments/payouts/${payoutId}`, 'PATCH', {
+      action: 'reject',
+      reason,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
   },
 
   // Support
@@ -1121,6 +1279,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       );
       return { chatConversations: updatedChats };
     });
+
+    syncApi(`/api/support/chat/${conversationId}`, 'PATCH', {
+      action: 'send_message',
+      content,
+      agentName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+    });
   },
 
   assignChat: (conversationId, agentName) => {
@@ -1134,6 +1298,11 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Chat Assigned',
       message: `Conversation ${conversationId} assigned to ${agentName}.`,
     });
+
+    syncApi(`/api/support/chat/${conversationId}`, 'PATCH', {
+      action: 'assign',
+      agentName,
+    });
   },
 
   resolveChat: (conversationId) => {
@@ -1146,6 +1315,10 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Chat Resolved',
       message: `Conversation ${conversationId} marked as resolved.`,
+    });
+
+    syncApi(`/api/support/chat/${conversationId}`, 'PATCH', {
+      action: 'resolve',
     });
   },
 
@@ -1206,6 +1379,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       message: `Ticket ${ticketId} created with complete chat history retained.`,
     });
 
+    syncApi(`/api/support/chat/${conversationId}`, 'PATCH', {
+      action: 'convert_to_ticket',
+      ticketDetails: details,
+      agentName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+    });
+
     return ticketId;
   },
 
@@ -1241,6 +1420,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
         ? 'Note recorded privately for internal administrators.'
         : 'Message delivered to customer channel.',
     });
+
+    syncApi(`/api/support/tickets/${ticketId}`, 'PATCH', {
+      action: 'add_event',
+      event: eventData,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
   },
 
   assignTicket: (ticketId, agent, team) => {
@@ -1254,6 +1440,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Ticket Assigned',
       message: `Ticket ${ticketId} assigned to ${agent}.`,
     });
+
+    syncApi(`/api/support/tickets/${ticketId}`, 'PATCH', {
+      action: 'assign',
+      agent,
+      team,
+    });
   },
 
   updateTicketStatus: (ticketId, status) => {
@@ -1263,6 +1455,11 @@ export const useAppStore = create<AppStore>((set, get) => ({
         t.id === ticketId ? { ...t, status, updatedAt: now } : t
       ),
     }));
+
+    syncApi(`/api/support/tickets/${ticketId}`, 'PATCH', {
+      action: 'update_status',
+      status,
+    });
   },
 
   resolveTicket: (ticketId, resolution) => {
@@ -1305,6 +1502,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Ticket Resolved',
       message: `Ticket ${ticketId} marked as resolved and added to Resolution History.`,
     });
+
+    syncApi(`/api/support/tickets/${ticketId}`, 'PATCH', {
+      action: 'resolve',
+      resolution,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
   },
 
   // SOS & Safety
@@ -1336,6 +1540,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'warning',
       title: 'SOS Incident Acknowledged',
       message: `Emergency controller assigned to ${incidentId}.`,
+    });
+
+    syncApi(`/api/safety/${incidentId}`, 'PATCH', {
+      action: 'acknowledge',
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
     });
   },
 
@@ -1406,6 +1616,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'SOS Incident Resolved',
       message: `Incident ${incidentId} closed with complete audit record.`,
+    });
+
+    syncApi(`/api/safety/${incidentId}`, 'PATCH', {
+      action: 'resolve',
+      resolution,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
     });
   },
 
@@ -1498,6 +1715,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Report Resolved',
       message: `${reportId} was resolved and the reporter was notified.`,
     });
+
+    syncApi(`/api/moderation/${reportId}`, 'PATCH', {
+      action: 'resolve',
+      resolution,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
   },
 
   dismissReport: (reportId, reason) => {
@@ -1526,6 +1750,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Report Dismissed',
       message: `Report ${reportId} marked as dismissed.`,
     });
+
+    syncApi(`/api/moderation/${reportId}`, 'PATCH', {
+      action: 'dismiss',
+      notes: reason,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
   },
 
   // Content
@@ -1544,6 +1775,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Content Item Created',
       message: `Draft created for "${item.title}".`,
+    });
+
+    syncApi('/api/content', 'POST', {
+      ...item,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
     });
   },
 
@@ -1653,6 +1890,12 @@ export const useAppStore = create<AppStore>((set, get) => ({
       message: `Invitation email queued for ${data.email} with 7-day secure token.`,
     });
 
+    syncApi('/api/admins', 'POST', {
+      ...data,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
+
     return { success: true, message: 'Invitation sent' };
   },
 
@@ -1745,6 +1988,14 @@ export const useAppStore = create<AppStore>((set, get) => ({
       title: 'Admin Role Updated',
       message: `Administrator ${targetAdmin?.firstName} ${targetAdmin?.lastName} assigned role ${newRole.toUpperCase()}.`,
     });
+
+    syncApi(`/api/admins/${adminId}`, 'PATCH', {
+      action: 'update_role',
+      role: newRole,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
+    });
+
     return { success: true, message: 'Role updated' };
   },
 
@@ -1786,6 +2037,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
       message: `Account status updated for ${targetAdmin?.firstName} ${targetAdmin?.lastName}.`,
     });
 
+    syncApi(`/api/admins/${adminId}`, 'PATCH', {
+      action: 'update_status',
+      status,
+      adminName: `${get().currentAdmin.firstName} ${get().currentAdmin.lastName}`,
+      adminId: get().currentAdmin.id,
+    });
+
     return { success: true, message: 'Status updated' };
   },
 
@@ -1821,6 +2079,14 @@ export const useAppStore = create<AppStore>((set, get) => ({
       type: 'success',
       title: 'Configuration Saved',
       message: `Platform setting "${key}" updated successfully.`,
+    });
+
+    syncApi('/api/settings', 'PATCH', {
+      action: 'update_setting',
+      key,
+      value,
+      adminName: `${currentAdmin.firstName} ${currentAdmin.lastName}`,
+      adminId: currentAdmin.id,
     });
   },
 

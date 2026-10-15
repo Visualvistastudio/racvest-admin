@@ -529,8 +529,8 @@ export interface AuditLog {
   targetType: string;
   targetId: string;
   timestamp: string;
-  previousValue?: string | Record<string, unknown>;
-  newValue?: string | Record<string, unknown>;
+  previousValue?: string | Record<string, unknown> | any;
+  newValue?: string | Record<string, unknown> | any;
   reason?: string;
   ipAddress?: string;
 }

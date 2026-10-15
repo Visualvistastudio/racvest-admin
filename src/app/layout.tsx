@@ -1,11 +1,12 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './globals.css';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { TopBar } from '@/components/layout/TopBar';
 import { ToastContainer } from '@/components/ui/ToastContainer';
 import { GlobalSearchModal } from '@/components/layout/GlobalSearchModal';
+import { useAppStore } from '@/lib/store';
 
 export default function RootLayout({
   children,
@@ -14,6 +15,11 @@ export default function RootLayout({
 }) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+
+  useEffect(() => {
+    // Hydrate store state from persistent database API on initial app boot
+    useAppStore.getState().initFromApi();
+  }, []);
 
   return (
     <html lang="en">
