@@ -170,7 +170,7 @@ export default function OverviewDashboardPage() {
       {/* Middle Section: Live Delivery Map & Alert Feed */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left 2 Cols: Live Delivery Map Corridor Canvas */}
-        <div className="lg:col-span-2 bg-[#0A1628] rounded-2xl p-6 text-white shadow-md relative overflow-hidden flex flex-col justify-between min-h-[380px] border border-slate-800">
+        <div className="lg:col-span-2 bg-[#0A1628] rounded-2xl p-4 sm:p-6 text-white shadow-md relative overflow-hidden flex flex-col justify-between min-h-[380px] border border-slate-800">
           {/* Header */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 z-10">
             <div>
@@ -409,17 +409,17 @@ export default function OverviewDashboardPage() {
           </Link>
         </div>
 
-        <div className="overflow-x-auto">
-          <table className="w-full text-left border-collapse">
+        <div className="overflow-x-auto scrollbar-thin">
+          <table className="w-full text-left border-collapse min-w-[640px]">
             <thead>
-              <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
-                <th className="py-3 px-6">Transaction ID</th>
-                <th className="py-3 px-6">User / Entity</th>
-                <th className="py-3 px-6">Amount</th>
-                <th className="py-3 px-6">Method</th>
-                <th className="py-3 px-6">Status</th>
-                <th className="py-3 px-6">Date</th>
-                <th className="py-3 px-6 text-right">Actions</th>
+              <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
+                <th className="py-3 px-4 sm:px-6">Transaction ID</th>
+                <th className="py-3 px-4 sm:px-6">User / Entity</th>
+                <th className="py-3 px-4 sm:px-6">Amount</th>
+                <th className="py-3 px-4 sm:px-6">Method</th>
+                <th className="py-3 px-4 sm:px-6">Status</th>
+                <th className="py-3 px-4 sm:px-6">Date</th>
+                <th className="py-3 px-4 sm:px-6 text-right">Actions</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100 text-sm">

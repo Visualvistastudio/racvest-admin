@@ -183,7 +183,7 @@ function UserManagementContent() {
       </div>
 
       {/* Tabs matching Senders.png / Travelers.png / Courier.png */}
-      <div className="flex items-center gap-2 border-b border-gray-200 pb-3">
+      <div className="flex items-center gap-2 border-b border-gray-200 pb-3 overflow-x-auto scrollbar-none flex-nowrap">
         {(['all', 'sender', 'traveller', 'courier'] as const).map((tab) => {
           const isActive = activeTab === tab;
           const label = tab === 'all' ? 'All Users' : tab.charAt(0).toUpperCase() + tab.slice(1);
@@ -341,7 +341,7 @@ function UserManagementContent() {
         </div>
 
         {/* Search input */}
-        <div className="relative min-w-[240px]">
+        <div className="relative w-full sm:w-64 min-w-[200px]">
           <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
           <input
             type="text"
@@ -369,10 +369,10 @@ function UserManagementContent() {
             }}
           />
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
+          <div className="overflow-x-auto scrollbar-thin">
+            <table className="w-full text-left border-collapse min-w-[840px]">
               <thead>
-                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                   <th className="py-3 px-4 w-10">
                     <input
                       type="checkbox"

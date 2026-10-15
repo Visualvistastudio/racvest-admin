@@ -85,7 +85,7 @@ export default function SettingsAndAuditPage() {
       </div>
 
       {/* Tabs */}
-      <div className="flex items-center gap-2 border-b border-gray-200 pb-3">
+      <div className="flex items-center gap-2 border-b border-gray-200 pb-3 overflow-x-auto scrollbar-none flex-nowrap">
         {[
           { id: 'general', label: 'General Configuration', icon: Settings },
           { id: 'audit', label: 'Activity & Audit Logs', icon: Activity, count: auditLogs.length },
@@ -99,7 +99,7 @@ export default function SettingsAndAuditPage() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id as any)}
-              className={`px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center gap-2 ${
+              className={`px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center gap-2 whitespace-nowrap ${
                 isActive
                   ? 'bg-brand-green text-white shadow-xs'
                   : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200/80'
@@ -195,10 +195,10 @@ export default function SettingsAndAuditPage() {
             </div>
           </div>
 
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse text-sm">
+          <div className="overflow-x-auto scrollbar-thin">
+            <table className="w-full text-left border-collapse text-sm min-w-[780px]">
               <thead>
-                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                   <th className="py-3 px-6">Event ID</th>
                   <th className="py-3 px-6">Administrator</th>
                   <th className="py-3 px-6">Action</th>

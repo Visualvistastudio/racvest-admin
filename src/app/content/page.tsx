@@ -91,7 +91,7 @@ export default function ContentManagementPage() {
       </div>
 
       {/* Tabs */}
-      <div className="flex items-center gap-2 border-b border-gray-200 pb-3">
+      <div className="flex items-center gap-2 border-b border-gray-200 pb-3 overflow-x-auto scrollbar-none flex-nowrap">
         {[
           { id: 'all', label: 'All Content' },
           { id: 'banner', label: 'In-App Banners' },
@@ -104,7 +104,7 @@ export default function ContentManagementPage() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id as any)}
-              className={`px-4 py-1.5 rounded-full text-xs font-bold transition ${
+              className={`px-4 py-1.5 rounded-full text-xs font-bold transition whitespace-nowrap ${
                 isActive
                   ? 'bg-brand-green text-white shadow-xs'
                   : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200/80'
@@ -118,8 +118,8 @@ export default function ContentManagementPage() {
 
       {/* Search and Listing Table */}
       <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
-        <div className="p-4 border-b border-gray-100 flex items-center justify-between">
-          <div className="relative min-w-[280px]">
+        <div className="p-4 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="relative w-full sm:w-72 min-w-[200px]">
             <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
@@ -135,10 +135,10 @@ export default function ContentManagementPage() {
           </span>
         </div>
 
-        <div className="overflow-x-auto">
-          <table className="w-full text-left border-collapse text-sm">
+        <div className="overflow-x-auto scrollbar-thin">
+          <table className="w-full text-left border-collapse text-sm min-w-[650px]">
             <thead>
-              <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+              <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                 <th className="py-3 px-6">ID</th>
                 <th className="py-3 px-6">Title</th>
                 <th className="py-3 px-6">Type</th>

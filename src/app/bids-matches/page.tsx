@@ -151,10 +151,10 @@ export default function BidsAndMatchesPage() {
               <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">UPDATED 2S AGO</span>
             </div>
 
-            <div className="overflow-x-auto">
-              <table className="w-full text-left text-xs border-collapse">
+            <div className="overflow-x-auto scrollbar-thin">
+              <table className="w-full text-left text-xs border-collapse min-w-[480px]">
                 <thead>
-                  <tr className="text-[10px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                  <tr className="text-[10px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                     <th className="pb-2.5">Request Title</th>
                     <th className="pb-2.5">Zone</th>
                     <th className="pb-2.5">Time Open</th>
@@ -356,10 +356,10 @@ export default function BidsAndMatchesPage() {
           </div>
         </div>
 
-        <div className="overflow-x-auto">
-          <table className="w-full text-left border-collapse text-sm">
+        <div className="overflow-x-auto scrollbar-thin">
+          <table className="w-full text-left border-collapse text-sm min-w-[780px]">
             <thead>
-              <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+              <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                 <th className="py-3 px-6">Match ID</th>
                 <th className="py-3 px-6">Delivery ID</th>
                 <th className="py-3 px-6">Sender</th>

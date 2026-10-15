@@ -98,7 +98,7 @@ export default function AnalyticsPage() {
       </div>
 
       {/* KPI Highlights */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-xs">
           <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400">Completion Rate</span>
           <div className="text-3xl font-black text-emerald-700 mt-1">{completionRate}%</div>

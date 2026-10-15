@@ -12,6 +12,7 @@ import {
   Shield,
   Clock,
   ExternalLink,
+  Menu,
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { AdminRole } from '@/types';
@@ -20,9 +21,10 @@ import Link from 'next/link';
 
 interface TopBarProps {
   onOpenSearch: () => void;
+  onToggleMobileMenu?: () => void;
 }
 
-export const TopBar: React.FC<TopBarProps> = ({ onOpenSearch }) => {
+export const TopBar: React.FC<TopBarProps> = ({ onOpenSearch, onToggleMobileMenu }) => {
   const pathname = usePathname();
   const { currentAdmin, switchAdminRole, safetyIncidents, moderationReports, supportTickets, refunds } = useAppStore();
 
@@ -77,14 +79,24 @@ export const TopBar: React.FC<TopBarProps> = ({ onOpenSearch }) => {
   };
 
   return (
-    <header className="h-16 bg-white border-b border-gray-200 px-6 flex items-center justify-between sticky top-0 z-20">
-      {/* Left: Page Title */}
-      <div className="flex items-center gap-4">
-        <h1 className="text-base font-bold text-gray-900 tracking-tight">{getPageTitle()}</h1>
+    <header className="h-16 bg-white border-b border-gray-200 px-3 sm:px-6 flex items-center justify-between sticky top-0 z-20">
+      {/* Left: Mobile Menu Toggle & Page Title */}
+      <div className="flex items-center gap-2 sm:gap-4 min-w-0">
+        <button
+          type="button"
+          onClick={onToggleMobileMenu}
+          className="lg:hidden p-1.5 -ml-1 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition"
+          aria-label="Open mobile menu"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
+        <h1 className="text-sm sm:text-base font-bold text-gray-900 tracking-tight truncate max-w-[130px] sm:max-w-xs md:max-w-none">
+          {getPageTitle()}
+        </h1>
       </div>
 
-      {/* Center: Global Search Bar */}
-      <div className="flex-1 max-w-xl mx-8">
+      {/* Center: Global Search Bar (Tablet/Desktop) */}
+      <div className="flex-1 max-w-xl mx-3 sm:mx-6 md:mx-8 hidden md:flex">
         <button
           onClick={onOpenSearch}
           className="w-full flex items-center justify-between px-4 py-2 bg-gray-50 hover:bg-gray-100/80 border border-gray-200 rounded-lg text-sm text-gray-500 transition shadow-xs group"
@@ -100,22 +112,31 @@ export const TopBar: React.FC<TopBarProps> = ({ onOpenSearch }) => {
       </div>
 
       {/* Right Action Icons & Persona Menu */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-1.5 sm:gap-3">
+        {/* Mobile Search Trigger Icon */}
+        <button
+          onClick={onOpenSearch}
+          className="md:hidden w-8 h-8 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition"
+          aria-label="Search"
+        >
+          <Search className="w-4 h-4" />
+        </button>
+
         {/* Notifications Popover */}
         <div className="relative" ref={notifRef}>
           <button
             onClick={() => setNotifMenuOpen(!notifMenuOpen)}
-            className="w-9 h-9 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition relative"
+            className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition relative"
             aria-label="View notifications"
           >
-            <Bell className="w-5 h-5" />
+            <Bell className="w-4 h-4 sm:w-5 sm:h-5" />
             {unreadAlertsCount > 0 && (
               <span className="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-red-600 ring-2 ring-white" />
             )}
           </button>
 
           {notifMenuOpen && (
-            <div className="absolute right-0 mt-2 w-80 bg-white rounded-xl shadow-xl border border-gray-100 p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+            <div className="absolute right-0 mt-2 w-[calc(100vw-2rem)] sm:w-80 max-w-sm bg-white rounded-xl shadow-xl border border-gray-100 p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
               <div className="px-3 py-2 border-b border-gray-100 flex items-center justify-between">
                 <span className="text-xs font-bold uppercase tracking-wider text-gray-500">Live Alert Feed</span>
                 <span className="text-[10px] font-semibold bg-red-100 text-red-700 px-2 py-0.5 rounded-full">
@@ -205,7 +226,7 @@ export const TopBar: React.FC<TopBarProps> = ({ onOpenSearch }) => {
           </button>
 
           {personaMenuOpen && (
-            <div className="absolute right-0 mt-2 w-72 bg-white rounded-xl shadow-xl border border-gray-100 p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+            <div className="absolute right-0 mt-2 w-[calc(100vw-2rem)] sm:w-72 max-w-sm bg-white rounded-xl shadow-xl border border-gray-100 p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
               <div className="px-3 py-2 border-b border-gray-100">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400 block mb-0.5">
                   RBAC Persona Switcher

@@ -149,7 +149,7 @@ function PaymentsContent() {
       </div>
 
       {/* Tabs */}
-      <div className="flex items-center gap-2 border-b border-gray-200 pb-3">
+      <div className="flex items-center gap-2 border-b border-gray-200 pb-3 overflow-x-auto scrollbar-none flex-nowrap">
         {[
           { id: 'transactions', label: 'Transactions', count: transactions.length },
           { id: 'refunds', label: 'Refund Requests', count: refunds.length },
@@ -222,10 +222,10 @@ function PaymentsContent() {
 
           {/* Transactions Table */}
           <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse text-sm">
+            <div className="overflow-x-auto scrollbar-thin">
+              <table className="w-full text-left border-collapse text-sm min-w-[840px]">
                 <thead>
-                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                     <th className="py-3 px-6">Transaction ID</th>
                     <th className="py-3 px-6">User / Recipient</th>
                     <th className="py-3 px-6">Related Delivery</th>
@@ -296,10 +296,10 @@ function PaymentsContent() {
           </div>
 
           <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse text-sm">
+            <div className="overflow-x-auto scrollbar-thin">
+              <table className="w-full text-left border-collapse text-sm min-w-[820px]">
                 <thead>
-                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                     <th className="py-3 px-6">Refund ID</th>
                     <th className="py-3 px-6">Delivery ID</th>
                     <th className="py-3 px-6">Customer</th>
@@ -354,10 +354,10 @@ function PaymentsContent() {
       {activeTab === 'payouts' && (
         <div className="space-y-4">
           <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse text-sm">
+            <div className="overflow-x-auto scrollbar-thin">
+              <table className="w-full text-left border-collapse text-sm min-w-[860px]">
                 <thead>
-                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                     <th className="py-3 px-6">Payout ID</th>
                     <th className="py-3 px-6">Recipient</th>
                     <th className="py-3 px-6">Delivery ID</th>
@@ -418,10 +418,10 @@ function PaymentsContent() {
             <h3 className="text-sm font-bold text-gray-900">User Wallet Balances & Escrow Holds</h3>
             <p className="text-xs text-gray-500">Live balances stored in secure Nigerian banking escrow.</p>
           </div>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse text-sm">
+          <div className="overflow-x-auto scrollbar-thin">
+            <table className="w-full text-left border-collapse text-sm min-w-[650px]">
               <thead>
-                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                   <th className="py-3 px-6">User</th>
                   <th className="py-3 px-6">Role</th>
                   <th className="py-3 px-6">Available Balance</th>

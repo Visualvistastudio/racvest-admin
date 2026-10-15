@@ -27,6 +27,7 @@ import {
   Phone,
   Mail,
   Shield,
+  ArrowLeft,
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { SupportTicket, ChatConversation, SafetyIncident, TicketPriority, TicketStatus } from '@/types';
@@ -135,7 +136,7 @@ function CustomerSupportContent() {
       </div>
 
       {/* Navigation Sub-Tabs matching PRD Section 11.2 */}
-      <div className="flex items-center gap-2 border-b border-gray-200 pb-3">
+      <div className="flex items-center gap-2 border-b border-gray-200 pb-3 overflow-x-auto scrollbar-none flex-nowrap">
         {[
           { id: 'tickets', label: 'Support Tickets', icon: Ticket, count: supportTickets.length },
           { id: 'chat', label: 'Live Chat', icon: MessageSquare, count: chatConversations.length },
@@ -214,10 +215,10 @@ function CustomerSupportContent() {
 
           {/* Tickets Table */}
           <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse text-sm">
+            <div className="overflow-x-auto scrollbar-thin">
+              <table className="w-full text-left border-collapse text-sm min-w-[850px]">
                 <thead>
-                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                     <th className="py-3 px-6">Ticket ID</th>
                     <th className="py-3 px-6">Issue Title</th>
                     <th className="py-3 px-6">Customer</th>
@@ -292,7 +293,7 @@ function CustomerSupportContent() {
       {activeTab === 'chat' && (
         <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden grid grid-cols-1 md:grid-cols-3 min-h-[580px]">
           {/* Conversation List */}
-          <div className="border-r border-gray-200 flex flex-col">
+          <div className={`border-r border-gray-200 flex flex-col ${selectedChat ? 'hidden md:flex' : 'flex'}`}>
             <div className="p-4 border-b border-gray-100 flex items-center justify-between">
               <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wider">Active Conversations</h3>
               <span className="text-xs font-bold text-brand-green bg-emerald-50 px-2 py-0.5 rounded-full">
@@ -336,18 +337,25 @@ function CustomerSupportContent() {
           </div>
 
           {/* Active Chat Conversation Area */}
-          <div className="md:col-span-2 flex flex-col h-full justify-between bg-gray-50/30">
+          <div className={`md:col-span-2 flex flex-col h-full justify-between bg-gray-50/30 ${!selectedChat ? 'hidden md:flex' : 'flex'}`}>
             {selectedChat ? (
               <>
                 {/* Chat Header & Convert Action */}
                 <div className="p-4 border-b border-gray-200 bg-white flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-full bg-emerald-50 text-brand-green flex items-center justify-center font-bold text-xs">
+                  <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+                    <button
+                      onClick={() => setSelectedChat(null)}
+                      className="md:hidden p-1.5 -ml-1 text-gray-500 hover:text-gray-900 rounded-lg hover:bg-gray-100 transition mr-0.5"
+                      aria-label="Back to conversations"
+                    >
+                      <ArrowLeft className="w-4 h-4" />
+                    </button>
+                    <div className="w-8 h-8 rounded-full bg-emerald-50 text-brand-green flex items-center justify-center font-bold text-xs flex-shrink-0">
                       {selectedChat.customerName[0]}
                     </div>
-                    <div>
-                      <h3 className="text-xs font-bold text-gray-900">{selectedChat.customerName}</h3>
-                      <div className="text-[11px] text-gray-400">
+                    <div className="min-w-0">
+                      <h3 className="text-xs font-bold text-gray-900 truncate">{selectedChat.customerName}</h3>
+                      <div className="text-[11px] text-gray-400 truncate">
                         Category: {selectedChat.category} {selectedChat.deliveryId && `• Shipment ${selectedChat.deliveryId}`}
                       </div>
                     </div>
@@ -515,9 +523,10 @@ function CustomerSupportContent() {
                 description="Completed ticket resolutions will be logged here for legal, financial, and compliance auditing."
               />
             ) : (
-              <table className="w-full text-left border-collapse text-sm">
-                <thead>
-                  <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+              <div className="overflow-x-auto scrollbar-thin">
+                <table className="w-full text-left border-collapse text-sm min-w-[700px]">
+                  <thead>
+                    <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                     <th className="py-3 px-6">Ticket ID</th>
                     <th className="py-3 px-6">Customer</th>
                     <th className="py-3 px-6">Issue Category</th>
@@ -548,7 +557,8 @@ function CustomerSupportContent() {
                     </tr>
                   ))}
                 </tbody>
-              </table>
+                </table>
+              </div>
             )}
           </div>
         </div>

@@ -137,7 +137,7 @@ function DeliveriesContent() {
       </div>
 
       {/* Tabs matching Shipments Management.png */}
-      <div className="flex items-center gap-6 border-b border-gray-200 text-sm font-semibold">
+      <div className="flex items-center gap-6 border-b border-gray-200 text-sm font-semibold overflow-x-auto scrollbar-none whitespace-nowrap">
         {[
           { id: 'all', label: 'All Shipments' },
           { id: 'in_transit', label: 'In Transit' },
@@ -211,12 +211,12 @@ function DeliveriesContent() {
         </div>
 
         {/* Search & Results counter */}
-        <div className="flex items-center gap-3 self-end">
+        <div className="flex items-center gap-3 self-end w-full sm:w-auto">
           <span className="text-xs text-gray-500 font-medium hidden sm:inline">
             Showing {filteredDeliveries.length} results
           </span>
 
-          <div className="relative min-w-[220px]">
+          <div className="relative w-full sm:w-64 min-w-[200px]">
             <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
@@ -245,10 +245,10 @@ function DeliveriesContent() {
             }}
           />
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
+          <div className="overflow-x-auto scrollbar-thin">
+            <table className="w-full text-left border-collapse min-w-[850px]">
               <thead>
-                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100">
+                <tr className="bg-gray-50/80 text-[11px] font-bold text-gray-400 uppercase tracking-wider border-b border-gray-100 whitespace-nowrap">
                   <th className="py-3 px-6">ID</th>
                   <th className="py-3 px-6">Sender</th>
                   <th className="py-3 px-6">Courier / Traveler</th>

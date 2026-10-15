@@ -22,6 +22,7 @@ import {
   Gavel,
   Check,
   Lock,
+  ArrowLeft,
 } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { ModerationReport, ReportStatus } from '@/types';
@@ -122,7 +123,7 @@ function ModerationContent() {
       {/* Main Layout: Left Queue List | Right Details View matching Dashboard shell.png */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Column: Report Queue List */}
-        <div className="space-y-4">
+        <div className={`space-y-4 ${selectedReport ? 'hidden lg:block' : 'block'}`}>
           {/* Search & Filters */}
           <div className="bg-white p-3 rounded-xl border border-gray-200 shadow-xs space-y-2">
             <div className="relative">
@@ -215,16 +216,25 @@ function ModerationContent() {
         </div>
 
         {/* Right Column (2 Cols): Active Report Details matching Dashboard shell.png */}
-        <div className="lg:col-span-2">
+        <div className={`lg:col-span-2 ${!selectedReport ? 'hidden lg:block' : 'block'}`}>
           {selectedReport ? (
             <div className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
               {/* Header */}
-              <div className="p-6 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-gray-50/50">
-                <div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400 block mb-0.5">
-                    REPORT DETAILS
-                  </span>
-                  <h2 className="text-xl font-black text-gray-900 tracking-tight">{selectedReport.id}</h2>
+              <div className="p-4 sm:p-6 border-b border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-gray-50/50">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <button
+                    onClick={() => setSelectedReport(null)}
+                    className="lg:hidden p-1.5 -ml-1 text-gray-500 hover:text-gray-900 rounded-lg hover:bg-gray-100 transition mr-0.5"
+                    aria-label="Back to report queue"
+                  >
+                    <ArrowLeft className="w-4 h-4" />
+                  </button>
+                  <div>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400 block mb-0.5">
+                      REPORT DETAILS
+                    </span>
+                    <h2 className="text-lg sm:text-xl font-black text-gray-900 tracking-tight">{selectedReport.id}</h2>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-2">

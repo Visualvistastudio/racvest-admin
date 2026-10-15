@@ -20,12 +20,18 @@ import {
   ChevronDown,
   ChevronRight,
   ShieldAlert,
+  X,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useAppStore } from '@/lib/store';
 import { Permission } from '@/types';
 
-export const Sidebar: React.FC = () => {
+export interface SidebarProps {
+  mobileOpen?: boolean;
+  onMobileClose?: () => void;
+}
+
+export const Sidebar: React.FC<SidebarProps> = ({ mobileOpen = false, onMobileClose }) => {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
   const [usersExpanded, setUsersExpanded] = useState(true);
@@ -158,44 +164,11 @@ interface NavGroup {
     },
   ];
 
-  return (
-    <aside
-      className={cn(
-        'h-screen sticky top-0 flex flex-col bg-[#061D13] text-gray-300 transition-all duration-300 z-30 select-none border-r border-[#08281B]',
-        collapsed ? 'w-20' : 'w-64'
-      )}
-    >
-      {/* Brand Header */}
-      <div className="h-16 flex items-center justify-between px-5 border-b border-[#0C3524]">
-        <div className="flex items-center gap-2.5 overflow-hidden">
-          <div className="w-8 h-8 rounded-lg bg-brand-green flex items-center justify-center text-white font-extrabold text-lg flex-shrink-0 shadow-sm border border-[#0A4F2A]">
-            R
-          </div>
-          {!collapsed && (
-            <div className="flex flex-col">
-              <span className="text-base font-black tracking-wider text-white">
-                RAC<span className="text-brand-orange">VEST</span>
-              </span>
-              <span className="text-[10px] uppercase font-semibold tracking-wider text-emerald-400/80 -mt-0.5">
-                Admin Control
-              </span>
-            </div>
-          )}
-        </div>
-
-        <button
-          onClick={() => setCollapsed(!collapsed)}
-          className="text-gray-400 hover:text-white p-1 rounded-md hover:bg-[#0C3524] transition flex-shrink-0"
-          title={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
-        >
-          <ChevronLeft className={cn('w-4 h-4 transition-transform duration-200', collapsed && 'rotate-180')} />
-        </button>
-      </div>
-
+  const renderNavContent = (isMobile = false) => (
+    <>
       {/* Navigation Links */}
       <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-6 scrollbar-thin">
         {navGroups.map((group) => {
-          // Filter items based on RBAC permissions
           const visibleItems = group.items.filter((item) => {
             if (!item.permission) return true;
             return hasPermission(item.permission as any);
@@ -205,7 +178,7 @@ interface NavGroup {
 
           return (
             <div key={group.group} className="space-y-1">
-              {!collapsed && (
+              {(!collapsed || isMobile) && (
                 <div className="px-3 text-[10px] font-bold text-gray-500 tracking-wider mb-1.5 uppercase">
                   {group.group}
                 </div>
@@ -219,21 +192,24 @@ interface NavGroup {
                   <div key={item.name}>
                     <Link
                       href={item.href}
+                      onClick={() => {
+                        if (isMobile && onMobileClose) onMobileClose();
+                      }}
                       className={cn(
                         'flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-semibold transition group relative',
                         active
                           ? 'bg-gradient-to-r from-brand-orange to-brand-orange-light text-white shadow-md font-bold'
                           : 'text-gray-400 hover:text-white hover:bg-[#0C3524]'
                       )}
-                      title={collapsed ? item.name : undefined}
+                      title={collapsed && !isMobile ? item.name : undefined}
                     >
                       <Icon className={cn('w-4 h-4 flex-shrink-0', active ? 'text-white' : 'text-gray-400 group-hover:text-emerald-400')} />
 
-                      {!collapsed && (
+                      {(!collapsed || isMobile) && (
                         <span className="flex-1 truncate">{item.name}</span>
                       )}
 
-                      {!collapsed && item.hasSubItems && (
+                      {(!collapsed || isMobile) && item.hasSubItems && (
                         <button
                           type="button"
                           onClick={(e) => {
@@ -253,13 +229,16 @@ interface NavGroup {
                     </Link>
 
                     {/* Submenu for User Management if expanded */}
-                    {!collapsed && item.hasSubItems && usersExpanded && active && (
+                    {(!collapsed || isMobile) && item.hasSubItems && usersExpanded && active && (
                       <div className="ml-7 mt-1 pl-2 border-l border-[#0F422D] space-y-1">
                         {item.subItems?.map((sub) => {
                           return (
                             <Link
                               key={sub.name}
                               href={sub.href}
+                              onClick={() => {
+                                if (isMobile && onMobileClose) onMobileClose();
+                              }}
                               className={cn(
                                 'block py-1 px-2 text-[11px] rounded transition font-medium',
                                 'text-gray-400 hover:text-white hover:bg-[#0C3524]'
@@ -292,7 +271,7 @@ interface NavGroup {
             )}
           </div>
 
-          {!collapsed && (
+          {(!collapsed || isMobile) && (
             <div className="flex-1 min-w-0">
               <div className="text-xs font-bold text-white truncate">
                 {currentAdmin ? `${currentAdmin.firstName} ${currentAdmin.lastName}` : 'Admin'}
@@ -304,6 +283,89 @@ interface NavGroup {
           )}
         </div>
       </div>
-    </aside>
+    </>
+  );
+
+  return (
+    <>
+      {/* Mobile Off-Canvas Drawer */}
+      {mobileOpen && (
+        <div className="fixed inset-0 z-50 lg:hidden">
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
+            onClick={onMobileClose}
+            aria-hidden="true"
+          />
+
+          {/* Sliding Drawer */}
+          <aside className="fixed inset-y-0 left-0 w-72 max-w-[85vw] bg-[#061D13] text-gray-300 z-50 flex flex-col shadow-2xl animate-in slide-in-from-left duration-200 border-r border-[#08281B]">
+            {/* Header with Close Button */}
+            <div className="h-16 flex items-center justify-between px-5 border-b border-[#0C3524]">
+              <div className="flex items-center gap-2.5 overflow-hidden">
+                <div className="w-8 h-8 rounded-lg bg-brand-green flex items-center justify-center text-white font-extrabold text-lg flex-shrink-0 shadow-sm border border-[#0A4F2A]">
+                  R
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-base font-black tracking-wider text-white">
+                    RAC<span className="text-brand-orange">VEST</span>
+                  </span>
+                  <span className="text-[10px] uppercase font-semibold tracking-wider text-emerald-400/80 -mt-0.5">
+                    Admin Control
+                  </span>
+                </div>
+              </div>
+
+              <button
+                onClick={onMobileClose}
+                className="text-gray-400 hover:text-white p-1.5 rounded-lg hover:bg-[#0C3524] transition"
+                aria-label="Close navigation"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {renderNavContent(true)}
+          </aside>
+        </div>
+      )}
+
+      {/* Desktop Sticky Sidebar */}
+      <aside
+        className={cn(
+          'h-screen sticky top-0 hidden lg:flex flex-col bg-[#061D13] text-gray-300 transition-all duration-300 z-30 select-none border-r border-[#08281B]',
+          collapsed ? 'w-20' : 'w-64'
+        )}
+      >
+        {/* Brand Header */}
+        <div className="h-16 flex items-center justify-between px-5 border-b border-[#0C3524]">
+          <div className="flex items-center gap-2.5 overflow-hidden">
+            <div className="w-8 h-8 rounded-lg bg-brand-green flex items-center justify-center text-white font-extrabold text-lg flex-shrink-0 shadow-sm border border-[#0A4F2A]">
+              R
+            </div>
+            {!collapsed && (
+              <div className="flex flex-col">
+                <span className="text-base font-black tracking-wider text-white">
+                  RAC<span className="text-brand-orange">VEST</span>
+                </span>
+                <span className="text-[10px] uppercase font-semibold tracking-wider text-emerald-400/80 -mt-0.5">
+                  Admin Control
+                </span>
+              </div>
+            )}
+          </div>
+
+          <button
+            onClick={() => setCollapsed(!collapsed)}
+            className="text-gray-400 hover:text-white p-1 rounded-md hover:bg-[#0C3524] transition flex-shrink-0"
+            title={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
+          >
+            <ChevronLeft className={cn('w-4 h-4 transition-transform duration-200', collapsed && 'rotate-180')} />
+          </button>
+        </div>
+
+        {renderNavContent(false)}
+      </aside>
+    </>
   );
 };
